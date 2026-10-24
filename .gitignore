@@ -1,0 +1,7 @@
+benchmark/cases/
+results/recorded/*.mat
+results/reproduced/*
+!results/reproduced/.gitkeep
+*.asv
+__pycache__/
+*.log

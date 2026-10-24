@@ -1,0 +1,62 @@
+[
+  {
+    "method": "Ours",
+    "n": 100,
+    "successes": 100,
+    "mean_J": 77.81128307144586,
+    "mean_extraStops": 0.53,
+    "mean_totalTime": 72.51128307144585,
+    "mean_cusps": 0.53,
+    "mean_steeringStops": 0.0,
+    "mean_qualityGapPercent": 0.06131922938798451,
+    "mean_runtimeOverheadPercent": 979.7614132930762,
+    "mean_totalPlanningSeconds": 7.9280630379999995,
+    "bestCount": 99,
+    "medianGap": 0.0
+  },
+  {
+    "method": "HA",
+    "n": 100,
+    "successes": 100,
+    "mean_J": 127.16024331973561,
+    "mean_extraStops": 3.84,
+    "mean_totalTime": 88.76024331973558,
+    "mean_cusps": 0.63,
+    "mean_steeringStops": 3.21,
+    "mean_qualityGapPercent": 70.57402859089323,
+    "mean_runtimeOverheadPercent": 557.1642590902173,
+    "mean_totalPlanningSeconds": 3.0722855749999995,
+    "bestCount": 1,
+    "medianGap": 70.6446259467763
+  },
+  {
+    "method": "BIAGT",
+    "n": 100,
+    "successes": 100,
+    "mean_J": 221.8281385629093,
+    "mean_extraStops": 8.56,
+    "mean_totalTime": 136.2281385629093,
+    "mean_cusps": 2.3,
+    "mean_steeringStops": 6.26,
+    "mean_qualityGapPercent": 192.48409981168996,
+    "mean_runtimeOverheadPercent": 5133.781501286298,
+    "mean_totalPlanningSeconds": 10.457284878000001,
+    "bestCount": 0,
+    "medianGap": 187.28886254788006
+  },
+  {
+    "method": "GHA",
+    "n": 100,
+    "successes": 100,
+    "mean_J": 124.44350468293564,
+    "mean_extraStops": 3.69,
+    "mean_totalTime": 87.54350468293563,
+    "mean_cusps": 0.62,
+    "mean_steeringStops": 3.07,
+    "mean_qualityGapPercent": 66.4816721689691,
+    "mean_runtimeOverheadPercent": 6123.7002715529115,
+    "mean_totalPlanningSeconds": 36.151389189,
+    "bestCount": 0,
+    "medianGap": 62.52584930289704
+  }
+]
