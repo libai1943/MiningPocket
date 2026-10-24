@@ -2,8 +2,6 @@
 
 Reproducibility artifact for **BRS: Branching and Recursive Sampling for Motion Planning of Autonomous Mining Trucks in Narrow Unstructured Loading Pockets**.
 
-Authors: Bai Li, Fan Bu, Guizhen Yu, and Zhijiang Shao. Manuscript prepared for submission to IEEE Transactions on Vehicular Technology.
-
 This repository contains the BRS MATLAB implementation, the fixed **100-case benchmark**, **all three comparison planners used in the experiments** (HA, BIAGT, and GHA-search), a common path-to-trajectory evaluator, and the 400 recorded planning results. Reviewers can inspect the code, rerun the planners, and independently verify the recorded trajectories and reported statistics.
 
 ## Quick start
