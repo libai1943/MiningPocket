@@ -1,0 +1,2167 @@
+[
+  {
+    "id": "B003",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 14.7575302,
+    "selectedJ": 28.239372506931396,
+    "coarseJ": 37.73916473503697,
+    "fineJ": 37.73916473503697,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 37.73916473503697,
+        "length": 45.66415577236162,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 37.739164734891716,
+        "length": 45.66415577236297,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 33.69090823793874,
+        "length": 45.797672164170336,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 28.239372506931396,
+        "length": 45.960540207319184,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 37.739164734891716,
+        "length": 45.66415577236297,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 37.73916473503697,
+    "firstSeconds": 1.0749248999999998,
+    "totalSeconds": 15.8887686,
+    "recursive": false,
+    "rootCandidates": 813,
+    "candidates": 813
+  },
+  {
+    "id": "B007",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 10.4611513,
+    "selectedJ": 51.2213479304574,
+    "coarseJ": 53.61340908371058,
+    "fineJ": 53.61340908371058,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 53.61340908371058,
+        "length": 93.89573406312977,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 53.6134090837105,
+        "length": 93.89573406312978,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 52.35411126123548,
+        "length": 93.89575584076648,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 51.2213479304574,
+        "length": 93.89578149051722,
+        "extraStops": 0
+      },
+      {
+        "kind": 2,
+        "scaleLevel": 1,
+        "J": 100.1848866562886,
+        "length": 171.79466570328455,
+        "extraStops": 1
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 53.6134090837105,
+        "length": 93.89573406312978,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 53.61340908371058,
+    "firstSeconds": 0.7782563,
+    "totalSeconds": 11.2748821,
+    "recursive": false,
+    "rootCandidates": 1526,
+    "candidates": 1526
+  },
+  {
+    "id": "B009",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 13.0739776,
+    "selectedJ": 46.58479594856682,
+    "coarseJ": 46.58479594856682,
+    "fineJ": 46.58479594856682,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 46.58479594856682,
+        "length": 61.71286676798287,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 46.58479594856682,
+        "length": 61.71286676798286,
+        "extraStops": 0
+      },
+      {
+        "kind": 2,
+        "scaleLevel": 1,
+        "J": 69.81326562003977,
+        "length": 85.46499091217677,
+        "extraStops": 1
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 46.58479594856682,
+        "length": 61.71286676798286,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 46.58479594856682,
+    "firstSeconds": 0.38287859999999996,
+    "totalSeconds": 13.534878,
+    "recursive": false,
+    "rootCandidates": 774,
+    "candidates": 774
+  },
+  {
+    "id": "B011",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 14.194165,
+    "selectedJ": 39.270857021123724,
+    "coarseJ": 39.270857021123724,
+    "fineJ": 39.270857021123724,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 39.270857021123724,
+        "length": 48.864687057955194,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 39.270857021033116,
+        "length": 48.864687057954804,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 39.270857021033116,
+        "length": 48.864687057954804,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 39.270857021123724,
+    "firstSeconds": 0.5988621000000001,
+    "totalSeconds": 14.8389738,
+    "recursive": false,
+    "rootCandidates": 736,
+    "candidates": 736
+  },
+  {
+    "id": "B014",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 15.4514271,
+    "selectedJ": 29.310149492060543,
+    "coarseJ": 35.47763526497189,
+    "fineJ": 35.47763526497189,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 35.47763526497189,
+        "length": 45.89138602656257,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 35.47763526496457,
+        "length": 45.89138602656259,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 32.38410515293036,
+        "length": 45.92604825413681,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 29.310149492060543,
+        "length": 45.978659131907456,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 35.47763526496457,
+        "length": 45.89138602656259,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 35.47763526497189,
+    "firstSeconds": 0.5510556999999999,
+    "totalSeconds": 16.057251,
+    "recursive": false,
+    "rootCandidates": 854,
+    "candidates": 854
+  },
+  {
+    "id": "B017",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 14.9024541,
+    "selectedJ": 79.88060514475553,
+    "coarseJ": 86.4466027210719,
+    "fineJ": 79.88060514475553,
+    "fineAttempted": true,
+    "selectedFine": true,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 79.88060514475553,
+        "length": 94.07139107061597,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 90.18046408135746,
+        "length": 126.1145015169603,
+        "extraStops": 1
+      }
+    ],
+    "firstJ": 79.88060514475553,
+    "firstSeconds": 1.4553378000000001,
+    "totalSeconds": 16.4962727,
+    "recursive": false,
+    "rootCandidates": 1037,
+    "candidates": 1037
+  },
+  {
+    "id": "B020",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 9.0914587,
+    "selectedJ": 54.45741155091558,
+    "coarseJ": 59.68580076381211,
+    "fineJ": 59.68579258823228,
+    "fineAttempted": true,
+    "selectedFine": true,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 59.68579258823228,
+        "length": 97.18146059086465,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 59.68580076381231,
+        "length": 97.18146059086467,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 57.025010349629504,
+        "length": 97.18972457540882,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 54.45741155091558,
+        "length": 97.19998466483993,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 59.68580076381231,
+        "length": 97.18146059086467,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 59.68579258823228,
+    "firstSeconds": 0.8382606,
+    "totalSeconds": 10.0134411,
+    "recursive": false,
+    "rootCandidates": 803,
+    "candidates": 803
+  },
+  {
+    "id": "B021",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 14.6354636,
+    "selectedJ": 28.24633528754653,
+    "coarseJ": 37.767573856522716,
+    "fineJ": 37.767573856522716,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 37.767573856522716,
+        "length": 45.666961562580816,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 37.76757385657517,
+        "length": 45.66696156258032,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 33.70372976657267,
+        "length": 45.80336815353336,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 28.24633528754653,
+        "length": 45.96852656190479,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 37.76757385657517,
+        "length": 45.66696156258032,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 37.767573856522716,
+    "firstSeconds": 0.5835496,
+    "totalSeconds": 15.2665446,
+    "recursive": false,
+    "rootCandidates": 813,
+    "candidates": 813
+  },
+  {
+    "id": "B023",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 16.0086059,
+    "selectedJ": 28.33051337370485,
+    "coarseJ": 37.69805016464286,
+    "fineJ": 37.69805016464286,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 37.69805016464286,
+        "length": 45.917686097427485,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 37.69805016469895,
+        "length": 45.91768609742702,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 33.739688687050865,
+        "length": 46.035227863533294,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 28.33051337370485,
+        "length": 46.18441687739614,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 37.69805016469895,
+        "length": 45.91768609742702,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 37.69805016464286,
+    "firstSeconds": 0.5470259000000001,
+    "totalSeconds": 16.6260519,
+    "recursive": false,
+    "rootCandidates": 832,
+    "candidates": 832
+  },
+  {
+    "id": "B025",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 9.653274,
+    "selectedJ": 55.143132946763174,
+    "coarseJ": 60.50944065211779,
+    "fineJ": 60.50944065211779,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 60.50944065211779,
+        "length": 98.23385472342942,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 60.5094406521178,
+        "length": 98.23385472342945,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 57.76172977520553,
+        "length": 98.23980222908799,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 55.143132946763174,
+        "length": 98.24679895906377,
+        "extraStops": 0
+      },
+      {
+        "kind": 2,
+        "scaleLevel": 1,
+        "J": 103.77631998026784,
+        "length": 174.08600566246713,
+        "extraStops": 1
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 60.5094406521178,
+        "length": 98.23385472342945,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 60.50944065211779,
+    "firstSeconds": 0.8469676,
+    "totalSeconds": 10.5483549,
+    "recursive": false,
+    "rootCandidates": 1195,
+    "candidates": 1195
+  },
+  {
+    "id": "B028",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 12.2672255,
+    "selectedJ": 64.20985753154781,
+    "coarseJ": 70.15384055413362,
+    "fineJ": 70.1538224397189,
+    "fineAttempted": true,
+    "selectedFine": true,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 70.1538224397189,
+        "length": 115.61163312203858,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 70.15384055413362,
+        "length": 115.61163312203858,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 67.13269147958609,
+        "length": 115.62119374975832,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 64.20985753154781,
+        "length": 115.63269240251225,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 70.15384055413362,
+        "length": 115.61163312203858,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 70.1538224397189,
+    "firstSeconds": 1.0845981,
+    "totalSeconds": 13.4167515,
+    "recursive": false,
+    "rootCandidates": 1188,
+    "candidates": 1188
+  },
+  {
+    "id": "B029",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 12.9891271,
+    "selectedJ": 56.45544171876621,
+    "coarseJ": 61.29812889886555,
+    "fineJ": 61.2981118246551,
+    "fineAttempted": true,
+    "selectedFine": true,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 61.2981118246551,
+        "length": 102.07616142791576,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 61.29812889886556,
+        "length": 102.0761614279158,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 58.83536324110296,
+        "length": 102.08912512176143,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 56.45544171876621,
+        "length": 102.10606565521137,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 61.29812889886556,
+        "length": 102.0761614279158,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 61.2981118246551,
+    "firstSeconds": 1.1248762,
+    "totalSeconds": 14.1635988,
+    "recursive": false,
+    "rootCandidates": 1265,
+    "candidates": 1265
+  },
+  {
+    "id": "B034",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 12.8322183,
+    "selectedJ": 30.515735454210766,
+    "coarseJ": 39.75290525890919,
+    "fineJ": 39.75290525890919,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 39.75290525890919,
+        "length": 50.415332806721445,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 39.75290525890995,
+        "length": 50.415332806721445,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 35.85108117972738,
+        "length": 50.515764903625154,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 30.515735454210766,
+        "length": 50.6455485104786,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 39.75290525890995,
+        "length": 50.415332806721445,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 39.75290525890919,
+    "firstSeconds": 0.5960877,
+    "totalSeconds": 13.5068661,
+    "recursive": false,
+    "rootCandidates": 719,
+    "candidates": 719
+  },
+  {
+    "id": "B036",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 23.842218,
+    "selectedJ": 45.81545293629081,
+    "coarseJ": 50.95672971942899,
+    "fineJ": 50.95672971942899,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 50.95672971942899,
+        "length": 80.13875644291221,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 50.956729719428964,
+        "length": 80.13875644291221,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 48.3456646428965,
+        "length": 80.14843835085131,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 45.81545293629081,
+        "length": 80.16084191037432,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 50.956729719428964,
+        "length": 80.13875644291221,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 50.95672971942899,
+    "firstSeconds": 0.9091572,
+    "totalSeconds": 24.835409,
+    "recursive": false,
+    "rootCandidates": 1305,
+    "candidates": 1305
+  },
+  {
+    "id": "B038",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 12.7587519,
+    "selectedJ": 56.48962311850963,
+    "coarseJ": 61.38382573244356,
+    "fineJ": 61.38381607937911,
+    "fineAttempted": true,
+    "selectedFine": true,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 61.38381607937911,
+        "length": 102.02150464792032,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 61.38382573244356,
+        "length": 102.02150464792032,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 58.89733970379371,
+        "length": 102.03398711165275,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 56.48962311850963,
+        "length": 102.05026077278063,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 61.38382573244356,
+        "length": 102.02150464792032,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 61.38381607937911,
+    "firstSeconds": 1.179297,
+    "totalSeconds": 14.0005342,
+    "recursive": false,
+    "rootCandidates": 1259,
+    "candidates": 1259
+  },
+  {
+    "id": "B039",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 8.8748935,
+    "selectedJ": 60.60754214385425,
+    "coarseJ": 67.32640566434598,
+    "fineJ": 67.32640566434598,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 67.32640566434598,
+        "length": 110.41979149400221,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 67.32640566434596,
+        "length": 110.41979149400221,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 60.60754214385425,
+        "length": 112.24348838951009,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 64.92362821766454,
+        "length": 112.96240754570357,
+        "extraStops": 0
+      },
+      {
+        "kind": 2,
+        "scaleLevel": 1,
+        "J": 95.88178659178217,
+        "length": 143.21735267084918,
+        "extraStops": 1
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 67.32640566434596,
+        "length": 110.41979149400221,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 67.32640566434598,
+    "firstSeconds": 0.8160195,
+    "totalSeconds": 9.7595275,
+    "recursive": false,
+    "rootCandidates": 1066,
+    "candidates": 1066
+  },
+  {
+    "id": "B041",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 12.3962177,
+    "selectedJ": 61.54178146716307,
+    "coarseJ": 68.185935027794,
+    "fineJ": 68.185935027794,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 68.185935027794,
+        "length": 111.33133030737237,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 68.18593502779389,
+        "length": 111.33133030737238,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 61.54178146716307,
+        "length": 113.34934266918079,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 66.99570820710467,
+        "length": 114.34639537564067,
+        "extraStops": 0
+      },
+      {
+        "kind": 2,
+        "scaleLevel": 1,
+        "J": 94.92137563363623,
+        "length": 139.53026843891223,
+        "extraStops": 1
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 68.18593502779389,
+        "length": 111.33133030737238,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 68.185935027794,
+    "firstSeconds": 0.7922543,
+    "totalSeconds": 13.2663665,
+    "recursive": false,
+    "rootCandidates": 1628,
+    "candidates": 1628
+  },
+  {
+    "id": "B042",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 15.5974707,
+    "selectedJ": 82.81616930474443,
+    "coarseJ": 95.4334890369933,
+    "fineJ": 82.81616930474443,
+    "fineAttempted": true,
+    "selectedFine": true,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 82.81616930474443,
+        "length": 102.05533415753978,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 93.96345736447277,
+        "length": 134.0318177318318,
+        "extraStops": 1
+      }
+    ],
+    "firstJ": 82.81616930474443,
+    "firstSeconds": 1.292969,
+    "totalSeconds": 17.0142497,
+    "recursive": false,
+    "rootCandidates": 1071,
+    "candidates": 1071
+  },
+  {
+    "id": "B045",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 17.3467241,
+    "selectedJ": 46.07742649716336,
+    "coarseJ": 51.45198852450352,
+    "fineJ": 51.45201892590297,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 51.45198852450352,
+        "length": 80.08938507180572,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 51.45198852450354,
+        "length": 80.08938507180571,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 48.69957371447571,
+        "length": 80.09520385299822,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 46.07742649716336,
+        "length": 80.10204367470774,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 51.45198852450354,
+        "length": 80.08938507180571,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 51.45198852450352,
+    "firstSeconds": 0.7565221000000001,
+    "totalSeconds": 18.1879686,
+    "recursive": false,
+    "rootCandidates": 1175,
+    "candidates": 1175
+  },
+  {
+    "id": "B048",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 11.8915678,
+    "selectedJ": 62.05093292738157,
+    "coarseJ": 66.9691691630049,
+    "fineJ": 66.96914466114502,
+    "fineAttempted": true,
+    "selectedFine": true,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 66.96914466114502,
+        "length": 113.05599002846517,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 66.96916916300496,
+        "length": 113.05599002846519,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 64.47201286683423,
+        "length": 113.06815070279401,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 62.05093292738157,
+        "length": 113.08393330216693,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 66.96916916300496,
+        "length": 113.05599002846519,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 66.96914466114502,
+    "firstSeconds": 1.2254145,
+    "totalSeconds": 13.1819029,
+    "recursive": false,
+    "rootCandidates": 1131,
+    "candidates": 1131
+  },
+  {
+    "id": "B050",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 9.3213878,
+    "selectedJ": 66.19850145335622,
+    "coarseJ": 73.47471981578703,
+    "fineJ": 73.47471981578703,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 73.47471981578703,
+        "length": 121.18292244130537,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 73.47471981578703,
+        "length": 121.18292244130537,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 66.19850145335622,
+        "length": 122.93263169977028,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 70.11207762798189,
+        "length": 123.54598464127434,
+        "extraStops": 0
+      },
+      {
+        "kind": 2,
+        "scaleLevel": 1,
+        "J": 95.0807697906273,
+        "length": 154.82684009022853,
+        "extraStops": 1
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 73.47471981578703,
+        "length": 121.18292244130537,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 73.47471981578703,
+    "firstSeconds": 0.8504406,
+    "totalSeconds": 10.23641,
+    "recursive": false,
+    "rootCandidates": 1083,
+    "candidates": 1083
+  },
+  {
+    "id": "B054",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 13.1740033,
+    "selectedJ": 55.10420095275173,
+    "coarseJ": 63.81911087359664,
+    "fineJ": 63.81911087359664,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 63.81911087359664,
+        "length": 98.58624366277732,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 63.81911087359682,
+        "length": 98.58624366277732,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 55.10420095275173,
+        "length": 100.10820041131508,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 60.10642738357185,
+        "length": 100.46270951234297,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 63.81911087359682,
+        "length": 98.58624366277732,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 63.81911087359664,
+    "firstSeconds": 0.9542889000000001,
+    "totalSeconds": 14.2582923,
+    "recursive": false,
+    "rootCandidates": 696,
+    "candidates": 696
+  },
+  {
+    "id": "B057",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 5.8451437,
+    "selectedJ": 72.75208115701102,
+    "coarseJ": 79.9478700114253,
+    "fineJ": 79.94787404571497,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 79.9478700114253,
+        "length": 132.06089052951054,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 79.94787001142528,
+        "length": 132.06089052951052,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 76.36757192171169,
+        "length": 132.08778984852526,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 72.75208115701102,
+        "length": 132.12349122643255,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 79.94787001142528,
+        "length": 132.06089052951052,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 79.9478700114253,
+    "firstSeconds": 1.445025,
+    "totalSeconds": 7.3905488,
+    "recursive": false,
+    "rootCandidates": 498,
+    "candidates": 498
+  },
+  {
+    "id": "B058",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 13.2597301,
+    "selectedJ": 57.08751752222387,
+    "coarseJ": 57.69997751311597,
+    "fineJ": 82.37641514160167,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 57.69997751311597,
+        "length": 105.30206197869205,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 57.69997751311596,
+        "length": 105.30206197869207,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 62.722123525243724,
+        "length": 105.65525295356689,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 57.08751752222387,
+        "length": 107.31771081642965,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 61.861918536819395,
+        "length": 106.33298994299025,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 57.69997751311597,
+    "firstSeconds": 1.4157487000000002,
+    "totalSeconds": 14.7962545,
+    "recursive": false,
+    "rootCandidates": 648,
+    "candidates": 648
+  },
+  {
+    "id": "B059",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 12.4929633,
+    "selectedJ": 56.33217204270471,
+    "coarseJ": 61.20353070054085,
+    "fineJ": 61.20355453597108,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 61.20353070054085,
+        "length": 101.76166363328582,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 61.20353070054084,
+        "length": 101.76166363328582,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 58.72786352496971,
+        "length": 101.77436621507707,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 56.33217204270471,
+        "length": 101.79094669784755,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 61.20353070054084,
+        "length": 101.76166363328582,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 61.20353070054085,
+    "firstSeconds": 1.1353069,
+    "totalSeconds": 13.6798714,
+    "recursive": false,
+    "rootCandidates": 1259,
+    "candidates": 1259
+  },
+  {
+    "id": "B062",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 13.5135937,
+    "selectedJ": 45.81743748979139,
+    "coarseJ": 50.965917183306466,
+    "fineJ": 50.965917183306466,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 50.965917183306466,
+        "length": 80.12482442646237,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 50.96591718330646,
+        "length": 80.12482442646238,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 48.35102066423266,
+        "length": 80.13440189738917,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 45.81743748979139,
+        "length": 80.14665304784504,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 50.96591718330646,
+        "length": 80.12482442646238,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 50.965917183306466,
+    "firstSeconds": 0.7315151,
+    "totalSeconds": 14.30365,
+    "recursive": false,
+    "rootCandidates": 1182,
+    "candidates": 1182
+  },
+  {
+    "id": "B063",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 15.4391618,
+    "selectedJ": 28.320932736758785,
+    "coarseJ": 37.66124276510414,
+    "fineJ": 37.66124276510414,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 37.66124276510414,
+        "length": 45.91173377039839,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 37.6612427649189,
+        "length": 45.91173377039987,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 33.720756667164785,
+        "length": 46.02647530037137,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 28.320932736758785,
+        "length": 46.173237218354906,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 37.6612427649189,
+        "length": 45.91173377039987,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 37.66124276510414,
+    "firstSeconds": 0.5803347000000001,
+    "totalSeconds": 16.0756368,
+    "recursive": false,
+    "rootCandidates": 834,
+    "candidates": 834
+  },
+  {
+    "id": "B067",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 9.8307078,
+    "selectedJ": 54.061648974417054,
+    "coarseJ": 59.43242457280074,
+    "fineJ": 59.43242457280074,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 59.43242457280074,
+        "length": 96.06240210996907,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 59.432424572800365,
+        "length": 96.06240210996909,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 56.68178366073099,
+        "length": 96.06827598080376,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 54.061648974417054,
+        "length": 96.07517848847145,
+        "extraStops": 0
+      },
+      {
+        "kind": 2,
+        "scaleLevel": 1,
+        "J": 99.93591115473168,
+        "length": 173.43382804900102,
+        "extraStops": 1
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 59.432424572800365,
+        "length": 96.06240210996909,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 59.43242457280074,
+    "firstSeconds": 0.8063524999999999,
+    "totalSeconds": 10.684121,
+    "recursive": false,
+    "rootCandidates": 1216,
+    "candidates": 1216
+  },
+  {
+    "id": "B068",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 12.9460071,
+    "selectedJ": 62.39192888787042,
+    "coarseJ": 69.68872336729031,
+    "fineJ": 69.68872267907325,
+    "fineAttempted": true,
+    "selectedFine": true,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 69.68872267907325,
+        "length": 111.32551831929132,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 69.68872336729022,
+        "length": 111.32551831929135,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 66.06090770488719,
+        "length": 111.35453550037276,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 62.39192888787042,
+        "length": 111.39355684879001,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 69.68872336729022,
+        "length": 111.32551831929135,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 69.68872267907325,
+    "firstSeconds": 1.2918156,
+    "totalSeconds": 14.3065094,
+    "recursive": false,
+    "rootCandidates": 1273,
+    "candidates": 1273
+  },
+  {
+    "id": "B069",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 5.9747507,
+    "selectedJ": 72.75208115701102,
+    "coarseJ": 79.9478700114253,
+    "fineJ": 79.94787404571497,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 79.9478700114253,
+        "length": 132.06089052951054,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 79.94787001142528,
+        "length": 132.06089052951052,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 76.36757192171169,
+        "length": 132.08778984852526,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 72.75208115701102,
+        "length": 132.12349122643255,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 79.94787001142528,
+        "length": 132.06089052951052,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 79.9478700114253,
+    "firstSeconds": 1.0315750000000001,
+    "totalSeconds": 7.0972908,
+    "recursive": false,
+    "rootCandidates": 506,
+    "candidates": 506
+  },
+  {
+    "id": "B071",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 8.779869,
+    "selectedJ": 60.903288823370865,
+    "coarseJ": 67.41410734546362,
+    "fineJ": 67.41410734546362,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 67.41410734546362,
+        "length": 110.1109441738099,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 67.41410734546359,
+        "length": 110.11094417380991,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 60.903288823370865,
+        "length": 112.11419007304926,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 66.30778849254216,
+        "length": 113.0911328063098,
+        "extraStops": 0
+      },
+      {
+        "kind": 2,
+        "scaleLevel": 1,
+        "J": 93.32663324332789,
+        "length": 140.94393217204927,
+        "extraStops": 1
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 67.41410734546359,
+        "length": 110.11094417380991,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 67.41410734546362,
+    "firstSeconds": 0.8136508,
+    "totalSeconds": 9.6535532,
+    "recursive": false,
+    "rootCandidates": 1059,
+    "candidates": 1059
+  },
+  {
+    "id": "B074",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 14.7569235,
+    "selectedJ": 40.027906939289366,
+    "coarseJ": 40.027906939289366,
+    "fineJ": 40.027906939289366,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 40.027906939289366,
+        "length": 48.23803555218403,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 40.02790693928935,
+        "length": 48.23803555218403,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 40.02790693928935,
+        "length": 48.23803555218403,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 40.027906939289366,
+    "firstSeconds": 0.6564276,
+    "totalSeconds": 15.4789017,
+    "recursive": false,
+    "rootCandidates": 751,
+    "candidates": 751
+  },
+  {
+    "id": "B079",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 10.8489583,
+    "selectedJ": 60.05372663113601,
+    "coarseJ": 63.51239533029912,
+    "fineJ": 69.33740713718676,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 63.51239533029912,
+        "length": 111.3130474246971,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 63.512395330299164,
+        "length": 111.3130474246971,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 61.11616642425393,
+        "length": 111.32949570053141,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 60.05372663113601,
+        "length": 111.3374193491101,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 62.82718201461262,
+        "length": 111.31718121972625,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 63.51239533029912,
+    "firstSeconds": 1.0951689,
+    "totalSeconds": 12.0164416,
+    "recursive": false,
+    "rootCandidates": 1006,
+    "candidates": 1006
+  },
+  {
+    "id": "B080",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 10.5488689,
+    "selectedJ": 40.10506984530995,
+    "coarseJ": 40.10506984530995,
+    "fineJ": 40.10506984530995,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 40.10506984530995,
+        "length": 48.28204108219037,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 40.10506984530993,
+        "length": 48.28204108219036,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 40.10506984530993,
+        "length": 48.28204108219036,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 40.10506984530995,
+    "firstSeconds": 0.5472311,
+    "totalSeconds": 11.1284297,
+    "recursive": false,
+    "rootCandidates": 766,
+    "candidates": 766
+  },
+  {
+    "id": "B083",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 14.5334909,
+    "selectedJ": 58.63149440147521,
+    "coarseJ": 65.74905584999432,
+    "fineJ": 65.74905584999432,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 65.74905584999432,
+        "length": 105.2497545422333,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 65.74905584999436,
+        "length": 105.2497545422333,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 58.63149440147521,
+        "length": 107.3397853466128,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 64.41438296094212,
+        "length": 108.45948355387081,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 65.74905584999436,
+        "length": 105.2497545422333,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 65.74905584999432,
+    "firstSeconds": 0.7869860999999999,
+    "totalSeconds": 15.4192003,
+    "recursive": false,
+    "rootCandidates": 1064,
+    "candidates": 1064
+  },
+  {
+    "id": "B085",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 9.54732,
+    "selectedJ": 44.212885083028254,
+    "coarseJ": 51.1230312404482,
+    "fineJ": 51.12301450094433,
+    "fineAttempted": true,
+    "selectedFine": true,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 51.12301450094433,
+        "length": 75.37672291083153,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 51.12303124044826,
+        "length": 75.37672291083155,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 47.58262643285553,
+        "length": 75.42810540565488,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 44.212885083028254,
+        "length": 75.50010583171267,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 51.12303124044826,
+        "length": 75.37672291083155,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 51.12301450094433,
+    "firstSeconds": 0.7274284000000001,
+    "totalSeconds": 10.3196997,
+    "recursive": false,
+    "rootCandidates": 871,
+    "candidates": 871
+  },
+  {
+    "id": "B086",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 5.8571095,
+    "selectedJ": 72.36056621374918,
+    "coarseJ": 79.3040426888307,
+    "fineJ": 79.30405948532403,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 79.3040426888307,
+        "length": 131.79151670882712,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 79.3040426888307,
+        "length": 131.7915167088271,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 75.73391348430322,
+        "length": 131.8416150190041,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 72.36056621374918,
+        "length": 131.90885450568172,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 79.3040426888307,
+        "length": 131.7915167088271,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 79.3040426888307,
+    "firstSeconds": 1.3536942,
+    "totalSeconds": 7.2950445,
+    "recursive": false,
+    "rootCandidates": 471,
+    "candidates": 471
+  },
+  {
+    "id": "B089",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 12.2163661,
+    "selectedJ": 51.22917434680596,
+    "coarseJ": 55.41107397011492,
+    "fineJ": 55.41107397011492,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 55.41107397011492,
+        "length": 91.92187773418463,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 55.41107397011489,
+        "length": 91.92187773418462,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 53.21284894456574,
+        "length": 91.9368935412424,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 51.22917434680596,
+        "length": 91.95671151133763,
+        "extraStops": 0
+      },
+      {
+        "kind": 2,
+        "scaleLevel": 1,
+        "J": 94.6111581656375,
+        "length": 164.38832592009493,
+        "extraStops": 1
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 55.41107397011489,
+        "length": 91.92187773418462,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 55.41107397011492,
+    "firstSeconds": 0.7683845,
+    "totalSeconds": 13.0291894,
+    "recursive": false,
+    "rootCandidates": 1607,
+    "candidates": 1607
+  },
+  {
+    "id": "B093",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 12.7979177,
+    "selectedJ": 52.94379691911364,
+    "coarseJ": 61.82903023292852,
+    "fineJ": 61.82903023292852,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 61.82903023292852,
+        "length": 95.61724831750801,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 61.8290302329285,
+        "length": 95.61724831750804,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 58.03148874451599,
+        "length": 95.68707269101934,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 52.94379691911364,
+        "length": 95.78021354542052,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 61.8290302329285,
+        "length": 95.61724831750804,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 61.82903023292852,
+    "firstSeconds": 1.2427472,
+    "totalSeconds": 14.1236663,
+    "recursive": false,
+    "rootCandidates": 940,
+    "candidates": 940
+  },
+  {
+    "id": "B099",
+    "success": true,
+    "rootSuccess": true,
+    "branch": 1,
+    "rootSeconds": 14.2603962,
+    "selectedJ": 61.39440117607386,
+    "coarseJ": 68.38112402202044,
+    "fineJ": 68.38112402202044,
+    "fineAttempted": true,
+    "selectedFine": false,
+    "alternatives": [
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 68.38112402202044,
+        "length": 110.86578359957461,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 68.38112402202047,
+        "length": 110.86578359957461,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 61.39440117607386,
+        "length": 112.93080265230371,
+        "extraStops": 0
+      },
+      {
+        "kind": 0,
+        "scaleLevel": 0,
+        "J": 67.03471370657165,
+        "length": 114.00005137106356,
+        "extraStops": 0
+      },
+      {
+        "kind": 3,
+        "scaleLevel": 1,
+        "J": 68.38112402202047,
+        "length": 110.86578359957461,
+        "extraStops": 0
+      }
+    ],
+    "firstJ": 68.38112402202044,
+    "firstSeconds": 0.9362946,
+    "totalSeconds": 15.3369495,
+    "recursive": false,
+    "rootCandidates": 1066,
+    "candidates": 1066
+  }
+]

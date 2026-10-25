@@ -1,6 +1,6 @@
 function rows = run_benchmark(methods, caseNumbers)
 % Full fresh experiment by default. Failures are recorded, never cached away.
-if nargin < 1, methods = {'BRS','HA','BIAGT','GHA'}; end
+if nargin < 1, methods = {'BRS','HA','BIAGT','GHA','CC-A*'}; end
 if nargin < 2, caseNumbers = 1:100; end
 if ischar(methods) || isstring(methods), methods = cellstr(methods); end
 root = miningpocket_setup(); rows = struct([]);

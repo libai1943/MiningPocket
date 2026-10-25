@@ -7,6 +7,9 @@ addpath(root, fullfile(root,'src'));
 if ~isfile(fullfile(root,'benchmark','cases','B100.mat'))
     unzip(fullfile(root,'benchmark','cases.zip'),fullfile(root,'benchmark'));
 end
+if ~isfile(fullfile(root,'benchmark','holdout','H012.mat'))
+    unzip(fullfile(root,'benchmark','holdout.zip'),fullfile(root,'benchmark'));
+end
 if includeRecorded
     files = dir(fullfile(root,'results','recorded','*.zip'));
     for k = 1:numel(files)

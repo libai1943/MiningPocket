@@ -18,7 +18,7 @@ for j=2:numel(xs)-1
  else,ys=interp1(ux,uy,x,'linear','extrap')+o.fineOffsets;ths=interp1(ux,uth,x,'linear','extrap')+o.fineHeadingOffsets;end
  [Y,T]=ndgrid(ys,ths);cand=[repmat(x,numel(Y),1),Y(:),T(:)];cand=cand(abs(cand(:,3))<deg2rad(85),:);
  if ~isempty(oldNodes),cand=[cand;oldNodes(abs(oldNodes(:,1)-x)<1e-5,:)];end
- cand=unique(round(cand*1e8)/1e8,'rows','stable');
+ [~,keep]=unique(round(cand*1e8)/1e8,'rows','stable');cand=cand(keep,:);
  for k=1:size(cand,1)
   p=dp.transform(struct('start',cand(k,:),'goal',cand(k,:)),a(1:2),axis);hit=cw.collides(p.start,w,0);
   poses(end+1,:)=cand(k,:);layers(end+1)=j;valid(end+1)=~hit;groups{j}(end+1)=size(poses,1);

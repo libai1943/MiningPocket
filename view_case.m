@@ -4,17 +4,23 @@ if nargin < 2, method = 'BRS'; end
 root = miningpocket_setup(); id = sprintf('B%03d',caseNumber);
 d = load(fullfile(root,'benchmark','cases',[id '.mat']),'scene'); s = d.scene;
 figure('Color','w'); ax = axes; hold(ax,'on');
-plot(ax,s.boundary(:,1),s.boundary(:,2),'.','Color',[.58 .56 .53],'MarkerSize',3);
-body(s.start,s.truck,[.2 .55 .78]); body(s.goal,s.truck,[.85 .43 .17]);
-if ~isempty(s.parkedTruck), body(s.parkedTruck,s.truck,[.45 .45 .45]); end
-f = fullfile(root,'results','reproduced',[upper(char(method)) '_' id '.mat']);
+plot(ax,s.boundary(:,1),s.boundary(:,2),'.','Color',[127 127 127]/255,'MarkerSize',3);
+body(s.start,s.truck,[63 72 204]/255); body(s.goal,s.truck,[0 162 232]/255);
+if ~isempty(s.parkedTruck), body(s.parkedTruck,s.truck,[127 127 127]/255); end
+name=upper(char(method));
+switch name
+ case {'CC-A*','CCA'},name='CC-Astar';
+ case 'OURS',name='BRS';
+ case 'GHA-SEARCH',name='GHA';
+end
+f = fullfile(root,'results','reproduced',[name '_' id '.mat']);
 if isfile(f)
     a = load(f,'result');
     if a.result.success
         legs = a.result.planner.best.legs;
         for k = 1:numel(legs)
-            q = cm.execution(legs{k},.1); c = [.05 .55 .43];
-            if legs{k}.gear < 0, c = [.18 .35 .76]; end
+            q = cm.execution(legs{k},.1); c = [63 72 204]/255;
+            if legs{k}.gear < 0, c = [0 162 232]/255; end
             plot(ax,q(:,1),q(:,2),'Color',c,'LineWidth',1.8);
         end
     end

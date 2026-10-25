@@ -1,50 +1,59 @@
-# MiningPocket — BRS motion planning for autonomous mining trucks
+# MiningPocket: branching and recursive motion planning
 
 Reproducibility artifact for **BRS: Branching and Recursive Sampling for Motion Planning of Autonomous Mining Trucks in Narrow Unstructured Loading Pockets**.
 
-This repository contains the BRS MATLAB implementation, the fixed **100-case benchmark**, **all three comparison planners used in the experiments** (HA, BIAGT, and GHA-search), a common path-to-trajectory evaluator, and the 400 recorded planning results. Reviewers can inspect the code, rerun the planners, and independently verify the recorded trajectories and reported statistics.
+This repository supplies BRS, four comparison planners (HA, BIAGT, GHA-search, and CC-A*), the fixed 100-task benchmark, twelve independent synthetic pockets, and a common trajectory evaluator. It includes 500 main comparisons, 60 independent-geometry queries, 300 component queries, and 45 timing repetitions. Every query has an outcome and measured runtime. Main-comparison and independent-geometry trajectories have independent validation records.
 
 ## Quick start
 
-MATLAB R2021b or later with Navigation Toolbox is required for the comparison planners. BRS uses the bundled MATLAB packages. Python 3 is sufficient for archive integrity and metric checks; no third-party Python package is needed.
+MATLAB R2021b or later with Navigation Toolbox supports all five planners. BRS uses the bundled MATLAB packages.
 
-Clone or download the repository and change MATLAB's current folder to it:
+```matlab
+miningpocket_setup
+r = plan_case(3,'BRS');
+view_case(3,'BRS')
+run_benchmark                         % fresh 100-task comparison
+validate_recorded                     % independently audit supplied paths
+addpath('tests'); test_numerics
+```
 
-    miningpocket_setup
-    r = plan_case(3,'BRS');      % fresh planning from Case #3
-    view_case(3,'BRS')
-    run_benchmark              % all four planners on all 100 cases
+Python 3 can verify the archives and recalculate the metrics without additional packages:
 
-A full rerun can take substantial time. Each result is saved incrementally under results/reproduced/; recorded results are never used to seed a planner.
+```text
+python tools/verify_artifact.py
+python tools/recompute_metrics.py
+```
 
-    addpath('tests'); smoke_release
-    validate_recorded          % independently checks all 400 supplied solutions
-    run_refinement_ablation    % same 100 cases, refinement enabled/disabled
+`run_paper_experiments` saves individual queries under `results/validated/` and resumes completed queries. `run_holdout_experiments`, `run_component_experiments`, and `run_timing_repeats` reproduce the additional studies. The component runner also exports numerical paper data and checks the source polygons of the independent tasks. Run the studies sequentially when collecting runtimes.
 
-From a shell:
+To regenerate the complete paper study, run the following sequence. The final command also performs the timing repetitions, exports the plot inputs, and validates the independent source geometry.
 
-    python tools/verify_artifact.py
-    python tools/recompute_metrics.py
+```matlab
+run_paper_experiments
+run_holdout_experiments
+run_component_experiments
+```
 
-The archives are intentionally part of the repository. miningpocket_setup unpacks the 100 tasks; validate_recorded unpacks the recorded solutions. No external data service, private drive path, or original project folder is required. The archives contain MATLAB .mat files, not Git LFS pointers.
+## Task and execution model
 
-## Contents
+Coordinates are local planar metres. The physical truck is 10.4 by 4.9 m, with wheelbase 6.22 m and minimum turning radius 15 m. Planning adds a 0.5 m buffer on all four sides. All planners share endpoint tolerances, a compulsory final reverse straight, collision rules, and time parameterization. The fixed evaluation is `J = T_f + 10 N_s`; actual stationary dwell is included in `T_f`, and `N_s` counts additional internal stops.
 
-| Location | Contents |
-|---|---|
-| src/ | MATLAB BRS, comparison planners, connectors, collision and timing code |
-| benchmark/cases.zip | 100 fixed local-planar benchmark tasks |
-| benchmark/manifest.json | Case IDs, map groups, and construction provenance |
-| results/recorded/ | All 400 saved planning outputs, metrics, and ablation logs |
-| experiment_settings.json | Common evaluation weight |
-| qa/ | Recorded validation, environment, and SHA-256 fingerprints |
-| tests/ | Portable entry-point and independent-validation smoke tests |
-| docs/ | Task definition, parameters, method scope, and reproduction notes |
+The main benchmark contains mining-map-derived and constructed tasks used in method development. The twelve synthetic pockets vary environmental geometry with fixed parameters and retain every generated valid task. See [benchmark definition](docs/benchmark.md) and [method and evaluation details](docs/methods.md).
 
 ## Recorded results
 
-All four implementations produced 100/100 valid results under the supplied independent checker. BRS has mean execution cost 77.8113 s with the fixed stop penalty, and the lowest tested cost in 99 tasks. Its mean per-task relative gap to the best tested result is 0.0613%. These results concern the curated benchmark and do not certify continuous global optimality. Historical wall-clock times characterize the stated MATLAB implementations and should not be interpreted as a comparison of equally optimized C++ programs.
+BRS solves 100/100 fixed tasks under independent checking. The common-success comparison across five methods contains 100 tasks. On that shared set, BRS has mean model-predicted execution time 65.61 s, 0.48 additional stops, and mean relative cost gap 1.34%. It obtains the lowest tested cost in 94 of the 100 main tasks, including ties. The supplied metric script derives the complete comparison from individual query records. `python tools/plot_paper_figures.py` recreates the numerical figures from the released data using NumPy, Matplotlib, and an installed Times New Roman font. The shared palette is defined in `tools/palette.py`.
 
-See [benchmark definition](docs/benchmark.md) and [implementation/evaluation details](docs/methods.md). Internal label Ours in historical records denotes BRS. Published figures use Case #1--#100.
+Planning times are sequential MATLAB wall-clock measurements on the platform described in `qa/experiment_environment.json`. Execution times are predictions of the common vehicle model. The manuscript states the finite candidate and graph properties supported by the algorithm; the benchmark results characterize the supplied tasks.
 
-This repository contains research code. Third-party code notices are retained in THIRD_PARTY_LICENSE.txt. Consult the authors before redistribution or commercial reuse of material for which no separate licence is specified.
+## Files
+
+- `src/`: planners, shared connectors, collision tests, and trajectory evaluator.
+- `benchmark/`: 100 fixed tasks, twelve independent pockets, and provenance.
+- `results/recorded/`: main query records and compressed MATLAB trajectories.
+- `results/holdout/`, `results/components/`, `results/timing/`: additional studies.
+- `results/paper_data/`: numerical inputs for the manuscript figures.
+- `qa/`: source, input, and result fingerprints and validation reports.
+- `tests/`: portable planning and numerical checks.
+
+Archives contain actual MATLAB files; no Git LFS or private data service is needed. Third-party notices appear in `THIRD_PARTY_LICENSE.txt`. Consult the authors before redistribution or commercial reuse of material without a separate licence.

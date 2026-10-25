@@ -19,8 +19,8 @@ while heap.n>0&&n<o.maxNodes&&toc(timer)<o.maxSeconds
    cert=base.validate(scene,sol,.04);
    if cert.passed
     e=evalcw.profile(p,scene.truck,evalcw.options());r.candidateCount=r.candidateCount+1;
-    if ~r.success,r.firstSolutionSeconds=toc(timer);end
-    if e.totalTime<bestValue,r.success=true;bestValue=e.totalTime;r.best=sol;r.best.certificate=cert;r.execution=e;end
+    if ~r.success,r.firstSolutionSeconds=toc(timer);r.firstExecution=e;r.firstBest=sol;eoFirst=evalcw.options();r.firstJ=e.totalTime+eoFirst.stopPenalty*e.internalStops;end
+    eo=evalcw.options();value=e.totalTime+eo.stopPenalty*e.internalStops;if value<bestValue,r.success=true;bestValue=value;r.best=sol;r.best.certificate=cert;r.execution=e;end
     if ~reverse||r.candidateCount>=o.goalCandidates,r.reason='solved';stop=true;break;end
    end
   end

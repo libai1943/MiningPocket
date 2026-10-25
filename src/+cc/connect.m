@@ -2,6 +2,8 @@ function paths=connect(a,b,radii,ramps,maxTurn)
 % Two G2 turns and their common tangent. Solve ONE scalar tangent equation.
 % No optimizer. Finite heading scan brackets roots; not a completeness claim.
 if nargin<5,maxTurn=2*pi-.02;end
+persistent rootOptions
+if isempty(rootOptions),rootOptions=optimset('TolX',1e-11,'Display','off');end
 paths={};delta=complex(b(1)-a(1),b(2)-a(2));
 for R=radii
  for ramp=ramps
@@ -16,7 +18,7 @@ for R=radii
      for jj=1:numel(xx)-1
       if ~valid(jj)||~valid(jj+1),continue;end
       if ff(jj)*ff(jj+1)<0
-       r=fzero(@scalar,[xx(jj) xx(jj+1)],optimset('TolX',1e-11,'Display','off'));roots(end+1)=r; %#ok<AGROW>
+       r=fzero(@scalar,[xx(jj) xx(jj+1)],rootOptions);roots(end+1)=r; %#ok<AGROW>
       elseif abs(ff(jj))<1e-8,roots(end+1)=xx(jj);end %#ok<AGROW>
      end
     end
@@ -25,13 +27,14 @@ for R=radii
     for r=special
      [v,~,p1,p2]=residual(r);if abs(v)<1e-7 && abs(p1)<=maxTurn && abs(p2)<=maxTurn,roots(end+1)=r;end %#ok<AGROW>
     end
-    roots=unique(round(roots*1e9)/1e9);
+    exact=[];for v=special,[f0,~,p0,p1]=residual(v);if abs(f0)<1e-9 && abs(p0)<=maxTurn && abs(p1)<=maxTurn,exact(end+1)=v;end;end
+    roots=cc.uniqueRoots([exact roots],1e-10);
     for th=roots(:)'
-     [f,d,p1,p2]=residual(th);assert(isscalar(d),sprintf('BAD th %s d %s R %s ramp %s',mat2str(size(th)),mat2str(size(d)),mat2str(size(R)),mat2str(size(ramp))));if d<-1e-7||abs(f)>1e-6||abs(p1)>maxTurn||abs(p2)>maxTurn,continue;end
+     [f,d,p1,p2]=residual(th);if ~isscalar(d),error('cc:connect:NonScalarTangent','Tangent length must be scalar');end;if d<-1e-7||abs(f)>1e-6||abs(p1)>maxTurn||abs(p2)>maxTurn,continue;end
      seg=[cc.turnSegments(p1,R,ramp);max(0,d) 0 0;cc.turnSegments(p2,R,ramp)];seg=seg(seg(:,1)>1e-8,:);
      path=struct('start',a,'goal',b,'segments',seg,'length',sum(seg(:,1)),'radius',R,'ramp',ramp,'middleHeading',th,'turnAngles',[p1 p2],'tangentLength',max(0,d));
      if isempty(seg),continue;end
-     [qq,~,~]=cc.sample(path,2);err=norm(qq(end,1:2)-b(1:2));
+     qq=cc.endpoint(path);err=norm(qq(end,1:2)-b(1:2));
      if err<1e-5 && abs(atan2(sin(qq(end,3)-b(3)),cos(qq(end,3)-b(3))))<1e-7,paths{end+1}=path;end %#ok<AGROW>
     end
    end

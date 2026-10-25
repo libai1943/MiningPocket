@@ -2,7 +2,7 @@ function paths=link(a,b,R,Lc)
 % Zero-curvature interfaces. Vectorized scalar closure, cached in local frame.
 persistent memo
 if isempty(memo),memo=containers.Map('KeyType','char','ValueType','any');end
-d=b(1:2)-a(1:2);key=sprintf('%.7f,%.7f,%.7f,%.7f,%.7f,%.7f',d,a(3),b(3),R,Lc);
+d=b(1:2)-a(1:2);key=reshape(num2hex([d,a(3),b(3),R,Lc])',1,[]);
 if isKey(memo,key),raw=memo(key);else
  raw={};ts=a(3);te=b(3);betas=unique([linspace(-pi/2+.02,pi/2-.02,41),ts,te,atan2(d(2),d(1))]);
  vals=res(betas);roots=[];
@@ -11,7 +11,7 @@ if isKey(memo,key),raw=memo(key);else
   if vals(j)*vals(j+1)<0,roots(end+1)=fzero(@res,[betas(j),betas(j+1)]);end
  end
  if abs(vals(end))<1e-9,roots(end+1)=betas(end);end
- roots=unique(round(roots*1e10)/1e10);
+ special=[ts te atan2(d(2),d(1))];vv=res(special);roots=cc.uniqueRoots([special(abs(vv(:)')<1e-9) roots],1e-10);
  for beta=roots(:)'
   [f,along]=res(beta);if along < -1e-7 || abs(f)>1e-6,continue;end
   seg=[cc.turnSegments(beta-ts,R,Lc);max(0,along),0,0;cc.turnSegments(te-beta,R,Lc)];seg=seg(seg(:,1)>1e-9,:);

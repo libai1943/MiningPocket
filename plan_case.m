@@ -12,12 +12,14 @@ switch method
         method = 'BRS'; r = cm.solve(scene);
     case 'HA'
         r = base.search(scene,'HA',base.options());
+    case {'CC-A*','CCA'}
+        method = 'CC-Astar'; r = base.ccsearch(scene,base.options());
     case 'BIAGT'
         r = base.biagt(scene,base.options());
     case {'GHA','GHA-SEARCH'}
         method = 'GHA'; r = base.search(scene,'GHA',base.options());
     otherwise
-        error('MiningPocket:Method','Use BRS, HA, BIAGT, or GHA.');
+        error('MiningPocket:Method','Use BRS, HA, BIAGT, GHA, or CC-A*.');
 end
 planningSeconds = toc(timer);
 result = struct('id',id,'method',method,'success',false,'planner',r,...

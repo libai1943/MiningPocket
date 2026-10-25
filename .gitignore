@@ -1,7 +1,14 @@
 benchmark/cases/
+benchmark/holdout/
 results/recorded/*.mat
+results/holdout/*.mat
+results/components/*.mat
+results/timing/*.mat
+results/validated/
 results/reproduced/*
 !results/reproduced/.gitkeep
 *.asv
 __pycache__/
 *.log
+tools/qa/
+results/paper_data/figures/

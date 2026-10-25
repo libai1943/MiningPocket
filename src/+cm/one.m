@@ -12,8 +12,10 @@ for ell=stems
   for ramp=o.fanRampLengths
    for side=[-1 1]
     for angle=o.fanAngles
+     if angle==0 && side<0,continue;end
+     if cm.expired(o),break;end
      turn=struct('start',anchor,'goal',[0 0 0],'segments',cc.turnSegments(side*angle,radius,ramp),'length',0);
-     turn.length=sum(turn.segments(:,1));q=cc.sample(turn,.3);turn.goal=q(end,:);fan=cc.join(stem,turn);
+     turn.length=sum(turn.segments(:,1));turn.goal=cc.endpoint(turn);fan=cc.join(stem,turn);
      cert=s1.check(scene,fan,o.step,w);
      fans{end+1}=struct('path',fan,'certificate',cert,'anchor',anchor,'stemLength',ell,'radius',radius,'ramp',ramp,'side',side,'angle',angle);
      fid=numel(fans);if ~cert.passed,continue;end
@@ -31,16 +33,16 @@ for ell=stems
  end
 end
 if ~isempty(candidates),cost=cellfun(@(x)x.cost,candidates);[~,ix]=sortrows([cost(:) (1:numel(cost))'],[1 2]);candidates=candidates(ix);end
-generation=toc(timer);status=zeros(1,numel(candidates));certs=cell(1,numel(candidates));best=[];winner=0;checked=0;
+generation=toc(timer);status=zeros(1,numel(candidates));certs=cell(1,numel(candidates));best=[];winner=0;checked=0;feasibleCount=0;bestJ=Inf;
 for j=1:numel(candidates)
- sol=candidates{j};if kind==2,p=sol.legs{1}.path;else,p=sol.legs{2}.path;end
+ sol=candidates{j};p=sol.connector;
  cert=s1.check(scene,p,o.step,w);certs{j}=cert;checked=checked+1;
  if cert.passed
   status(j)=1;
-  if isempty(best),best=sol;winner=j;end
-  if strcmp(mode,'ordered'),break;end
+  feasibleCount=feasibleCount+1;value=evalcw.score(sol,scene.truck);if value<bestJ,best=sol;winner=j;bestJ=value;end
+  if strcmp(mode,'ordered')&&feasibleCount>=o.feasibleLimit,break;end
  else,status(j)=-1;end
 end
-r=struct('success',~isempty(best),'kind',kind,'class',cc.classify(scene),'fans',{fans},'candidates',{candidates},'status',status,'certificates',{certs},'best',best,'winner',winner,'checked',checked,'generationSeconds',generation,'seconds',toc(timer),'options',o);
+r=struct('success',~isempty(best),'kind',kind,'class',cc.classify(scene),'fans',{fans},'candidates',{candidates},'status',status,'certificates',{certs},'best',best,'winner',winner,'feasibleCount',feasibleCount,'J',bestJ,'checked',checked,'generationSeconds',generation,'seconds',toc(timer),'options',o);
 if r.success,r.best.certificate=cm.verify(scene,r.best,o.step);assert(r.best.certificate.passed);end
 end

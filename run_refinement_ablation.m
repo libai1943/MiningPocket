@@ -1,19 +1,13 @@
-function rows = run_refinement_ablation(caseNumbers)
-% Same coarse graph, with or without incumbent-preserving local refinement.
-if nargin < 1, caseNumbers = 1:100; end
-root = miningpocket_setup(); rows = struct([]);
-for i = caseNumbers
-    id = sprintf('B%03d',i);
-    d = load(fullfile(root,'benchmark','cases',[id '.mat']),'scene');
-    oc = dp.options(); oc.refine = false;
-    coarse = dp.plan(d.scene,oc); fine = dp.plan(d.scene,dp.options());
-    row = struct('id',id,'coarseSuccess',coarse.success,'fineSuccess',fine.success,...
-        'coarseLength',NaN,'fineLength',NaN,'coarseSeconds',coarse.seconds,'fineSeconds',fine.seconds);
-    if coarse.success, row.coarseLength = coarse.best.length; end
-    if fine.success, row.fineLength = fine.best.length; end
-    if coarse.success, assert(fine.success && fine.best.length <= coarse.best.length+1e-7); end
-    if isempty(rows), rows = row; else, rows(end+1) = row; end
-    save(fullfile(root,'results','reproduced',['ablation_' id '.mat']),'coarse','fine','-v7');
+function rows=run_refinement_ablation()
+root=miningpocket_setup();rows=struct([]);
+for i=1:100
+ d=load(fullfile(root,'benchmark/cases',sprintf('B%03d.mat',i)));clear dp.link
+ r=dp.plan(d.scene,dp.options());
+ row=struct('id',d.scene.id,'success',r.success,'fineAttempted',~isempty(r.fine),'coarseJ',r.coarseJ,'fineJ',r.fineJ,'selectedFine',r.selectedFine,'selectedJ',NaN);
+ if r.success
+  sol=cm.solution({struct('path',r.best,'gear',-1,'reverseOrder',true)});row.selectedJ=evalcw.score(sol,d.scene.truck);
+  assert(row.selectedJ<=r.coarseJ+1e-9);
+ end
+ rows=[rows row];evalcw.writeJson(fullfile(root,'results/reproduced/refinement100.json'),rows);
 end
-evalcw.writeJson(fullfile(root,'results','reproduced','refinement_ablation.json'),rows);
 end
