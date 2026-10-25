@@ -1,16 +1,15 @@
 from pathlib import Path
 import hashlib,json,zipfile
 R=Path(__file__).resolve().parents[1]
-spec=json.loads((R/'qa/INPUT_RESULT_SHA256.json').read_text());seen=set()
-for archive,members in spec['archives'].items():
- with zipfile.ZipFile(R/archive) as z:
-  assert sorted(z.namelist())==sorted(members)
-  for name,v in members.items():
-   data=z.read(name);assert len(data)==v['bytes'] and hashlib.sha256(data).hexdigest()==v['sha256'],(archive,name)
-   seen.add((archive,name))
-for name,sha in spec['files'].items():assert hashlib.sha256((R/name).read_bytes()).hexdigest()==sha,name
-rows=json.loads((R/'results/recorded/comparison100.json').read_text());assert len(rows)==500
-for method in ['BRS','HA','BIAGT','GHA','CC-A*']:
- rr=[r for r in rows if r['method']==method];assert len(rr)==100
- print(method,':',sum(r['success'] for r in rr),'/ 100')
-print('PASS: archive members and source hashes verified; failure records retained.')
+manifest=json.loads((R/'RELEASE_SHA256.json').read_text())
+for name,digest in manifest.items():assert hashlib.sha256((R/name).read_bytes()).hexdigest()==digest,name
+cases=json.loads((R/'benchmark/manifest.json').read_text());assert len(cases)==100
+with zipfile.ZipFile(R/'benchmark/cases.zip') as z:
+ assert len(z.namelist())==100
+ for row in cases:
+  name=f"case_{row['id']:03d}.json";data=z.read(name);assert hashlib.sha256(data).hexdigest()==row['json_sha256']
+  if (R/'benchmark'/name).exists():assert (R/'benchmark'/name).read_bytes()==data
+rows=[json.loads(x) for x in (R/'results/comparison100.jsonl').read_text().splitlines()];assert len(rows)==500
+for m in ['BRS','HA','BIAGT','GHA','CC-A*']:
+ rr=[r for r in rows if r['method']==m];assert {r['case'] for r in rr}==set(range(1,101));assert all(r['planning_seconds']<=10 for r in rr);print(m,sum(r['success'] for r in rr),'/ 100')
+print('PASS: release hashes, exact 100 tasks, and complete 10-second comparison records.')

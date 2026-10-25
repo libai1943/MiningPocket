@@ -1,0 +1,22 @@
+{
+  "comparison": {
+    "details": [],
+    "failed": 0,
+    "validated": 488
+  },
+  "components": {
+    "details": [],
+    "failed": 0,
+    "validated": 397
+  },
+  "selection": {
+    "details": [],
+    "failed": 0,
+    "validated": 400
+  },
+  "diagnostic": {
+    "details": [],
+    "failed": 0,
+    "validated": 12
+  }
+}

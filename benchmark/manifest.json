@@ -1,1 +1,802 @@
-[{"id":"B001","originalId":"CW009","class":2,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW009"},{"id":"B002","originalId":"CW085","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW085"},{"id":"B003","originalId":"CW089","class":1,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW089"},{"id":"B004","originalId":"CW073","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW073"},{"id":"B005","originalId":"CW007","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW007"},{"id":"B006","originalId":"CW043","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW043"},{"id":"B007","originalId":"CW005","class":1,"mapGroup":"G05","kind":"real_map_controlled_task","parentId":"CW005"},{"id":"B008","originalId":"CW019","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW019"},{"id":"B009","originalId":"CW027","class":2,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW027"},{"id":"B010","originalId":"CW084","class":2,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW084"},{"id":"B011","originalId":"CW077","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW077"},{"id":"B012","originalId":"CW079","class":2,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW079"},{"id":"B013","originalId":"CW034","class":2,"mapGroup":"G05","kind":"real_map_controlled_task","parentId":"CW034"},{"id":"B014","originalId":"CW035","class":1,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW035"},{"id":"B015","originalId":"CW036","class":3,"mapGroup":"G02","kind":"real_map_controlled_task","parentId":"CW036"},{"id":"B016","originalId":"CW048","class":2,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW048"},{"id":"B017","originalId":"CW080","class":2,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW080"},{"id":"B018","originalId":"CW090","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW090"},{"id":"B019","originalId":"CW012","class":3,"mapGroup":"G02","kind":"real_map_controlled_task","parentId":"CW012"},{"id":"B020","originalId":"CW020","class":2,"mapGroup":"G02","kind":"real_map_controlled_task","parentId":"CW020"},{"id":"B021","originalId":"CW065","class":1,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW065"},{"id":"B022","originalId":"CW086","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW086"},{"id":"B023","originalId":"CW083","class":1,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW083"},{"id":"B024","originalId":"CW057","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW057"},{"id":"B025","originalId":"CW026","class":2,"mapGroup":"G05","kind":"real_map_controlled_task","parentId":"CW026"},{"id":"B026","originalId":"CW078","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW078"},{"id":"B027","originalId":"CW016","class":3,"mapGroup":"G02","kind":"real_map_controlled_task","parentId":"CW016"},{"id":"B028","originalId":"CW029","class":2,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW029"},{"id":"B029","originalId":"CW044","class":2,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW044"},{"id":"B030","originalId":"CW004","class":3,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW004"},{"id":"B031","originalId":"CW033","class":2,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW033"},{"id":"B032","originalId":"RV002","class":3,"mapGroup":"G03","kind":"procedural_environment","parentId":"CW003"},{"id":"B033","originalId":"CW040","class":3,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW040"},{"id":"B034","originalId":"CW011","class":1,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW011"},{"id":"B035","originalId":"CW049","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW049"},{"id":"B036","originalId":"CW074","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW074"},{"id":"B037","originalId":"CW061","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW061"},{"id":"B038","originalId":"CW068","class":2,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW068"},{"id":"B039","originalId":"CW066","class":2,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW066"},{"id":"B040","originalId":"CW082","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW082"},{"id":"B041","originalId":"CW030","class":2,"mapGroup":"G05","kind":"real_map_controlled_task","parentId":"CW030"},{"id":"B042","originalId":"CW059","class":2,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW059"},{"id":"B043","originalId":"CW060","class":2,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW060"},{"id":"B044","originalId":"CW088","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW088"},{"id":"B045","originalId":"CW047","class":2,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW047"},{"id":"B046","originalId":"CW022","class":2,"mapGroup":"G05","kind":"real_map_controlled_task","parentId":"CW022"},{"id":"B047","originalId":"CW072","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW072"},{"id":"B048","originalId":"CW062","class":2,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW062"},{"id":"B049","originalId":"CW003","class":3,"mapGroup":"G03","kind":"real_map_controlled_task","parentId":"CW003"},{"id":"B050","originalId":"CW042","class":2,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW042"},{"id":"B051","originalId":"CW037","class":3,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW037"},{"id":"B052","originalId":"CW045","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW045"},{"id":"B053","originalId":"CW091","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW091"},{"id":"B054","originalId":"CW075","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW075"},{"id":"B055","originalId":"CW001","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW001"},{"id":"B056","originalId":"CW099","class":2,"mapGroup":"G02","kind":"procedural_environment","parentId":"CW099"},{"id":"B057","originalId":"RV001","class":2,"mapGroup":"G02","kind":"procedural_environment","parentId":"CW002"},{"id":"B058","originalId":"CW063","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW063"},{"id":"B059","originalId":"CW050","class":2,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW050"},{"id":"B060","originalId":"CW039","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW039"},{"id":"B061","originalId":"CW046","class":3,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW046"},{"id":"B062","originalId":"CW071","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW071"},{"id":"B063","originalId":"CW041","class":1,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW041"},{"id":"B064","originalId":"CW100","class":2,"mapGroup":"G04","kind":"procedural_environment","parentId":"CW100"},{"id":"B065","originalId":"CW025","class":3,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW025"},{"id":"B066","originalId":"CW055","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW055"},{"id":"B067","originalId":"CW014","class":2,"mapGroup":"G05","kind":"real_map_controlled_task","parentId":"CW014"},{"id":"B068","originalId":"CW017","class":2,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW017"},{"id":"B069","originalId":"CW002","class":2,"mapGroup":"G02","kind":"real_map_controlled_task","parentId":"CW002"},{"id":"B070","originalId":"CW010","class":2,"mapGroup":"G05","kind":"real_map_controlled_task","parentId":"CW010"},{"id":"B071","originalId":"CW021","class":2,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW021"},{"id":"B072","originalId":"CW028","class":3,"mapGroup":"G02","kind":"real_map_controlled_task","parentId":"CW028"},{"id":"B073","originalId":"CW031","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW031"},{"id":"B074","originalId":"CW053","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW053"},{"id":"B075","originalId":"CW058","class":3,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW058"},{"id":"B076","originalId":"CW067","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW067"},{"id":"B077","originalId":"CW006","class":3,"mapGroup":"G06","kind":"real_map_controlled_task","parentId":"CW006"},{"id":"B078","originalId":"RV003","class":2,"mapGroup":"G04","kind":"procedural_environment","parentId":"CW009"},{"id":"B079","originalId":"CW056","class":2,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW056"},{"id":"B080","originalId":"CW098","class":3,"mapGroup":"G01","kind":"procedural_environment","parentId":"CW098"},{"id":"B081","originalId":"CW054","class":3,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW054"},{"id":"B082","originalId":"CW051","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW051"},{"id":"B083","originalId":"CW081","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW081"},{"id":"B084","originalId":"CW024","class":3,"mapGroup":"G02","kind":"real_map_controlled_task","parentId":"CW024"},{"id":"B085","originalId":"CW032","class":2,"mapGroup":"G02","kind":"real_map_controlled_task","parentId":"CW032"},{"id":"B086","originalId":"CW008","class":2,"mapGroup":"G02","kind":"real_map_controlled_task","parentId":"CW008"},{"id":"B087","originalId":"RV004","class":3,"mapGroup":"G01","kind":"procedural_environment","parentId":"CW001"},{"id":"B088","originalId":"CW015","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW015"},{"id":"B089","originalId":"CW038","class":1,"mapGroup":"G05","kind":"real_map_controlled_task","parentId":"CW038"},{"id":"B090","originalId":"CW076","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW076"},{"id":"B091","originalId":"CW013","class":3,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW013"},{"id":"B092","originalId":"CW064","class":3,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW064"},{"id":"B093","originalId":"CW023","class":2,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW023"},{"id":"B094","originalId":"CW069","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW069"},{"id":"B095","originalId":"CW052","class":3,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW052"},{"id":"B096","originalId":"CW070","class":3,"mapGroup":"G04","kind":"real_map_controlled_task","parentId":"CW070"},{"id":"B097","originalId":"CW094","class":3,"mapGroup":"G03","kind":"procedural_environment","parentId":"CW094"},{"id":"B098","originalId":"CW018","class":2,"mapGroup":"G05","kind":"real_map_controlled_task","parentId":"CW018"},{"id":"B099","originalId":"CW087","class":3,"mapGroup":"G01","kind":"real_map_controlled_task","parentId":"CW087"},{"id":"B100","originalId":"CW095","class":3,"mapGroup":"G04","kind":"corrected_start","parentId":"CW095"}]
+[
+  {
+    "id": 1,
+    "source": "B001.mat",
+    "source_sha256": "fc3887472d6d502b7e194238ccb13ea5e5ada086c79d5b37811e7a2025c9c20c",
+    "json_sha256": "c2ef836042f08896950914c6e4e3a4083389d17b97da96c3714a86b9d5c1babe",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW009', 'originalStart': array([ 15.94045984, 110.6844201 ,   3.14159265]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 2,
+    "source": "B002.mat",
+    "source_sha256": "4a39eaa1b626186d3e20a47d4714a9f1d8f558026a34db03555d335383ce2c67",
+    "json_sha256": "eb89e1c7d3aeabdc475a098b44946d547908d10a3205606a87c9631c27b5a574",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW085', 'originalStart': array([-3.66400108, 99.7999755 , -1.14191873]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 3,
+    "source": "B003.mat",
+    "source_sha256": "d7b3a6587336134734cdae4bd721f9da042cd3559b733837570f64a5923b38b5",
+    "json_sha256": "7aacf90265e4621a4d41d01f90837fbc9c438837eef1ea37fc84d1e0e0788659",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW089', 'originalStart': array([ 4.31735979, 44.94355408,  1.83259571]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 4,
+    "source": "B004.mat",
+    "source_sha256": "0278fbeaccfd48708cfa43392ab719596057061c3185a0b178bdceed5e20a367",
+    "json_sha256": "7f8af0bd7ca8900f050c7dc1e4afb24e54bf0de49d67743ebbe3a897b7b14e86",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW073', 'originalStart': array([ 5.33023592, 50.25504806, -1.16627547]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 5,
+    "source": "B005.mat",
+    "source_sha256": "4365b4d972259e2617037921da6cea77ee9e97969c68b3c4d83f4fac1af16417",
+    "json_sha256": "4903aa73cf0ec83814008a5634cd7084682d2bfdd41f4ee70c3cd69a17aec5ab",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW007', 'originalStart': array([12.30477465, 50.55160378, -1.16405014]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 6,
+    "source": "B006.mat",
+    "source_sha256": "c462b2939968e32cd26cebf2cc00b4775318c4abbdedf8502e936f46ea37e84d",
+    "json_sha256": "fd9497c773f538b9c904cc91c3d646626101fa89c4c9abb0a9adf705713329f6",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW043', 'originalStart': array([ 3.06329095, 49.91916365, -1.53385828]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 7,
+    "source": "B007.mat",
+    "source_sha256": "1f5d472ee67b9106b285af7a21dfb2109a3b6d176b6c42c36ef3dd518089f918",
+    "json_sha256": "ff13999465f24fdc86792dd0b3ebd92ee3bf3fe8270f397d5cf7d5319d675214",
+    "map_group": "G05",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW005', 'originalStart': array([ 1.16695721, 93.8872138 ,  1.57079633]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 8,
+    "source": "B008.mat",
+    "source_sha256": "c2f272fea6c9bf416f09fcb4f8e496c3a28d2ca42b06709e7b4a8a17ce48df42",
+    "json_sha256": "8afa75f276551326b0f8176047062c342917c7ee9e9bdd9fec39253b79270eb7",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW019', 'originalStart': array([-3.52328811, 79.98218005, -1.7524367 ]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 9,
+    "source": "B009.mat",
+    "source_sha256": "91e468d99168b004b3b03e51678177ec7ffd359e516be9b33fea8c9a1a06d896",
+    "json_sha256": "b37797bc998a95291990d5ef260b1f705b03e2b3ce0517c4643cc17f9de97d51",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW027', 'originalStart': array([10.27333495, 49.85074081,  0.        ]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 10,
+    "source": "B010.mat",
+    "source_sha256": "b2fa02165294d1be4a083a4ea02af0328d6bbbcf720143e26d684e4c0330ae89",
+    "json_sha256": "0c767fd3e089b39e845beb690e51b0624415cf8e100321550f5ae5d2ba20944d",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW084', 'originalStart': array([-19.09738882,  46.13900516,   0.        ]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 11,
+    "source": "B011.mat",
+    "source_sha256": "ae01bd50cfc46e15cb7286cb636f44815702b1db2475e6a691b03cd02a61c722",
+    "json_sha256": "12b6d85fcbbf680e77a36fd9238aee7571a6ea62975df2778e7b9cf7d14a0da7",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW077', 'originalStart': array([11.28478581, 44.97401549,  1.83259571]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 12,
+    "source": "B012.mat",
+    "source_sha256": "618e1e4b322a6d05bc6513d26834cdc8e93f72ea9cd9373c598ae31f87df5eee",
+    "json_sha256": "fca6b51718dfc317fb49dd4922e246e9294e01fa6107f64348153472d023078a",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW079', 'originalStart': array([-1.88455236, 65.01442981, -2.01423928]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 13,
+    "source": "B013.mat",
+    "source_sha256": "53fd65c8b8834fcbcd15bd576d341062ef96561a6d2d2213192b0edb389bab88",
+    "json_sha256": "bbf1b4c5b007d6dc3c944d86e8d71c6aadb503473c3e6337b8c9526c3d1ba205",
+    "map_group": "G05",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW034', 'originalStart': array([ 1.25724068, 96.40458799, -1.49618494]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 14,
+    "source": "B014.mat",
+    "source_sha256": "a68f856e6480c3f784b1a50453d4607d625e616d37c0238117a71f4b040c7fee",
+    "json_sha256": "45401dda34af63c32334aa9a0e41448be0abfe7ccdcede2338b176f1cb776f96",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW035', 'originalStart': array([ 9.51303668, 44.33429228,  1.30899694]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 15,
+    "source": "B015.mat",
+    "source_sha256": "ae6889bc2782a64416d8aaaeb7780ed80703205e791e7347cccc1c38dcfdcff4",
+    "json_sha256": "178a6d322982708a08cb1e52c2cff010af02a0853bbbc632947f395505157186",
+    "map_group": "G02",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW036', 'originalStart': array([-5.41815854, 94.42348167,  0.        ]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 16,
+    "source": "B016.mat",
+    "source_sha256": "a1a0a7125d4dc4a014b22015284a97086c1c349624ddeef478e7921990af898b",
+    "json_sha256": "74a95bd7420469955e0815915252221299adb122d55ff93c5020b5c7d74f28b1",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW048', 'originalStart': array([12.73712577, 99.84458774,  3.14159265]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 17,
+    "source": "B017.mat",
+    "source_sha256": "ba36446f33159a309cd13d7e2d79e2fa96d1025dd99395a3e98211ad98a78295",
+    "json_sha256": "2889f5b13277aced444aa414c66acee3742c964fea71aea58ae6c4a0857b4986",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW080', 'originalStart': array([-4.01798216, 93.48262335,  1.83259571]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 18,
+    "source": "B018.mat",
+    "source_sha256": "822448feed913a70b3687438342c44ba321526eac32c4c53df20671835b67601",
+    "json_sha256": "fb66e468073c7069d422358efeb38dcc4225334bdabdc94ae67b6d3b0b1cf967",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW090', 'originalStart': array([-4.01798216, 93.48262335,  0.        ]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 19,
+    "source": "B019.mat",
+    "source_sha256": "8f291bcd61440ed2595028758c79dbaac889bcbad210ecd55952a26ef9be417e",
+    "json_sha256": "635a2e12f703b5f796b1d3441ae7c7782fb24b3e65fbec9e12b2987512195662",
+    "map_group": "G02",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW012', 'originalStart': array([-5.4093928 , 98.38540377,  0.        ]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 20,
+    "source": "B020.mat",
+    "source_sha256": "ffacec898cc028e52b1d90d4caf9e59219973668e5cb668e7696aaf4a8c0262f",
+    "json_sha256": "9bc2253c2ddaacd2ffdf530fa25096e5febde9c4956b782a021aea549d1c755f",
+    "map_group": "G02",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW020', 'originalStart': array([-5.38411171, 96.95331165,  1.83259571]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 21,
+    "source": "B021.mat",
+    "source_sha256": "5157bcf9ed01b5b615430b389cefb29569433f56d7dc7f3dbbd159ab46aaf0dc",
+    "json_sha256": "5147fa07506345f7b007248aa69b6becc0ead6cc7850e9ea218eebe0765e9bc4",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW065', 'originalStart': array([ 4.36966793, 44.93316982,  1.83259571]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 22,
+    "source": "B022.mat",
+    "source_sha256": "b4afbff4c51b472f4e77a9bab05f0f85f4e148e7a225084e7bc00d369eefa6d5",
+    "json_sha256": "43b1e55cff03f874e1ea4823c30a1d86d1bb5b56cfd07ee6f6020bc18bef5ced",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW086', 'originalStart': array([11.45124521, 44.93679486,  1.83259571]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 23,
+    "source": "B023.mat",
+    "source_sha256": "4804f784a2450df08bfa702f6e383fc2335b5a275bc1d76f1dd0837ba47bcec8",
+    "json_sha256": "e783508589e9523d4953e5edf3dcfb5da4d960b1cb1f4ba721d4ae97eec484f3",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW083', 'originalStart': array([ 4.07024728, 45.26452608,  1.83259571]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 24,
+    "source": "B024.mat",
+    "source_sha256": "aa6ffc2875fc22dca195d6fabc33a643039ff599c6d1fa27c97239d54b0798f1",
+    "json_sha256": "dc12afa1c4e8d40c306a994696d198d37d861a5694d62010188ed30c4a9ef7f0",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW057', 'originalStart': array([-1.81004807, 65.02160953,  0.        ]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 25,
+    "source": "B025.mat",
+    "source_sha256": "be01526af446973ffde0a2bec8fd9c535878130353e95d05555d798108f4a8f1",
+    "json_sha256": "21a17f2708568a9a15ebc2053c79fb5e797c6e877fe621c086d2440b16b2f9bd",
+    "map_group": "G05",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW026', 'originalStart': array([ 8.30070437, 97.78885693,  1.30899694]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 26,
+    "source": "B026.mat",
+    "source_sha256": "1f6b5f737039c507fecdea15bb9d48b7e602784149678518c45c3115814c5500",
+    "json_sha256": "8bb8019ea31a3631a264884cd54216aa77366ad9651029d6308a501627a13bbb",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW078', 'originalStart': array([-11.5073864 , 102.01047926,   0.        ]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 27,
+    "source": "B027.mat",
+    "source_sha256": "c34d3e9e3a58035d7b42244199d7ddca57c694065a5abb56628647ff2c6372bf",
+    "json_sha256": "1c3fe080012c033df1408ce0412dafc5067e359d53debeb8f692888cd5f3a65a",
+    "map_group": "G02",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW016', 'originalStart': array([-14.92379962,  63.20066679,  -1.66146178]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 28,
+    "source": "B028.mat",
+    "source_sha256": "84b59a5a2b59ea3b293d8e35ebe40bd845e42b16dfbc22302dbf0eef38286035",
+    "json_sha256": "b405051d60de15bec3df81e0f9966ac9323efe9df3a4baf11be591c60380dfee",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW029', 'originalStart': array([ 16.11642986, 114.28055511,   1.57079633]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 29,
+    "source": "B029.mat",
+    "source_sha256": "a011a600f0868bbde31488f28c8617b465c0df4981bacb6fa38a749aecd783a6",
+    "json_sha256": "b502bb05ad96d8dc1e632fb4c7a4b638d770136503b113d0ea184d74261ec659",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW044', 'originalStart': array([20.98591065, 99.4944719 ,  1.30899694]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 30,
+    "source": "B030.mat",
+    "source_sha256": "637f1800ad19ba15e78518651d43f425a48213ab751e9e050d9b16845696fcda",
+    "json_sha256": "001829e2f52c6a3fa8d64e13904eda8bfadb2a0e6bfd8378f778b4f7579b72b8",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW004', 'originalStart': array([ 22.98729255, -60.80525769,  -1.6094862 ]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 31,
+    "source": "B031.mat",
+    "source_sha256": "365175bae2d4e5aad90a2be7918df1ea2b5dbd194fe24cf75be0576df49f77cd",
+    "json_sha256": "7cbf3c1ef1c8206c1c7587eb70869d26ffd8a3ff683bd07b4bd7576473f304e4",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW033', 'originalStart': array([ 15.73769266, 105.33342584,   3.14159265]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 32,
+    "source": "B032.mat",
+    "source_sha256": "87a79b975fe72d0a46f10c6cf104c28250b409f99a9cdac32c45feac850f4a27",
+    "json_sha256": "2333ba053ea8b74820054d8d29472b03a920c68f70b9c59b2cb06aa17d1e505a",
+    "map_group": "G03",
+    "provenance": "{'kind': 'procedural_environment', 'parentId': 'CW003', 'seed': 2026101804, 'parameters': {'xScale': 1.0477643310980338, 'yScale': 1.0168337715748097, 'bendAmplitude': 2.035494512853097, 'bendCenter': 41.93206197476193, 'bendWidth': 22.982786735087466, 'side': 1}, 'startRestoredToParent': 1, 'maxBoundaryDisplacement': 2.729803484670707, 'rmsBoundaryDisplacement': 1.0865082849367247}"
+  },
+  {
+    "id": 33,
+    "source": "B033.mat",
+    "source_sha256": "9470a0baa465cfff2595c1bc56a64cd4606fbdf8c606e3c4f0e36ba7a2f983ec",
+    "json_sha256": "39e1fee69721b9aee3c6b55fc4451a6df863aa781fa63d069e630a706e45c13c",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW040', 'originalStart': array([ 23.12474771, 111.71011197,  -1.62247923]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 34,
+    "source": "B034.mat",
+    "source_sha256": "f0079e72e0d29aa4897e80faa6ba88970bed204fcd9f5e871b43da82f1777c02",
+    "json_sha256": "ca97c9e4c2dd7aa44b9eec424137a90890ab5094070c13bf2a9b8b8fa9c8f747",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW011', 'originalStart': array([-4.68718474, 49.73543253,  1.30899694]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 35,
+    "source": "B035.mat",
+    "source_sha256": "37f843022a2bc2182adab369515bab8365413fb8ccdaec826b574c241dd0198f",
+    "json_sha256": "c259de564f7777c3cb2ea1107f2ada2de6ccd25612e842523bb6b218455d88d4",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW049', 'originalStart': array([-11.33902022,  96.55521538,  -1.14191873]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 36,
+    "source": "B036.mat",
+    "source_sha256": "b64691b5470a1cde68e98a60dcbbb5e28711b7a24d5eca6361b549c2ac5724c6",
+    "json_sha256": "ddb24ae5bc3ad95f8135107c75e3be0c1f7bf453bec964b5a450f5ef090bc279",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW074', 'originalStart': array([-3.52328811, 79.98218005,  1.83259571]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 37,
+    "source": "B037.mat",
+    "source_sha256": "eff0525ce325c27eb4aa66ec9ecb51611ba0f034db39217a3d32fb42f54f5af6",
+    "json_sha256": "5cbda84c56084f54ebb56c852e7a2d14b85c143ea4279846d42f3e27e7b8bd89",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW061', 'originalStart': array([-15.74362691,  47.4484733 ,  -1.80036161]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 38,
+    "source": "B038.mat",
+    "source_sha256": "7042084078a6b7f8d00df90d61bc8816dec61e9865b33b9008964a5411d0ea48",
+    "json_sha256": "0a597708ce1da83c53f74b48c9d971755319167f6a022a25a9910b9fe310879c",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW068', 'originalStart': array([20.69795128, 99.51014344,  1.30899694]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 39,
+    "source": "B039.mat",
+    "source_sha256": "793186c2b4a9829cc2d33ad0c471055dbb5da51ce63e941fde18ce1184d42b39",
+    "json_sha256": "a3c0ec9a2a1aad08d97de33f55cb565c4229c9df2debe622d646b91c8bed493f",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW066', 'originalStart': array([19.8370351, 99.8446022,  0.       ]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 40,
+    "source": "B040.mat",
+    "source_sha256": "22e590984c0a056bb28d09695800ecd97e3bd82c822fd653b0aaac4c1830e23a",
+    "json_sha256": "5be3b22a94e01f04d43c98c6ad6bc7e5515451cadeb823385c48ec9291d8f361",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW082', 'originalStart': array([-11.35070509,  99.58151078,  -1.14191873]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 41,
+    "source": "B041.mat",
+    "source_sha256": "b685eeb921e4e500a449e108996f5677412d1dba20b09605ac8975b6ff95197a",
+    "json_sha256": "8ddceab305a4ece8cddd5db8c63f474047c05c10c50b8cce217b8d38b3504ea0",
+    "map_group": "G05",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW030', 'originalStart': array([ 13.02601144, 100.70224994,   0.        ]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 42,
+    "source": "B042.mat",
+    "source_sha256": "89977e58c7da7d95c4364b0147f4e6cebaef1df4eb7a3c365bf8030861a99d26",
+    "json_sha256": "edd0790061d8f57b43fe09a4db93b2b170d35cb35cb72f03e79cf673f37909bf",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW059', 'originalStart': array([ -3.66073148, 101.40458706,   1.83259571]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 43,
+    "source": "B043.mat",
+    "source_sha256": "cd6b569eb543f4c39c2c38e70f1173799cc6246d3362c0eb160c95a98e083deb",
+    "json_sha256": "a156995a5b123196591375435a1887592bb3f517e8d68351bf24d67e5c6c4ed5",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW060', 'originalStart': array([ 23.21051661, 112.55304461,   3.14159265]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 44,
+    "source": "B044.mat",
+    "source_sha256": "2fb34ccbf91a0b39734e02e9531ceebb8e5d24bb14e7ab73432e2a361f961649",
+    "json_sha256": "99777968c80a31937012ca6a94c7cb23c89f7fe465ab1742139c016210604318",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW088', 'originalStart': array([ -3.69765498, 103.6554667 ,  -1.14191873]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 45,
+    "source": "B045.mat",
+    "source_sha256": "5f3edd22ad69ffbcbf6bb9f35f5ae6f46436d3a7e86cfe46c5611051db81276e",
+    "json_sha256": "f5127f043ba790c938e7bf8cb0dae77fba99da9451a3f0c8ca3304a362ddceab",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW047', 'originalStart': array([-6.79751734, 79.70541401,  1.83259571]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 46,
+    "source": "B046.mat",
+    "source_sha256": "fcd28b56db47f6d276dd8a9e37c21841205b252b98d0b5a52c36188729862117",
+    "json_sha256": "7fe588e6cfec69ea80f511ac89324af457c0396bc587e580cd18487d2ef2a8f3",
+    "map_group": "G05",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW022', 'originalStart': array([  5.92591558, 100.70225924,  -1.56479889]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 47,
+    "source": "B047.mat",
+    "source_sha256": "c8a027e176d267d487e383454874e274ac6aa3cd0ee1b673521ad78cdc8805e7",
+    "json_sha256": "da01e6ab75380b1771454f43bd5fa8fe39c69101239048f26ec02e000c9fb23a",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW072', 'originalStart': array([-11.31769793,  97.98383452,   0.        ]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 48,
+    "source": "B048.mat",
+    "source_sha256": "8ee495e9b5d713a87145850cd0844aa45f7041379aaa953977607fb22b2e6804",
+    "json_sha256": "8a644b9c551be7d1c7dffabb66629fc9977a3c996805911fc3fede24e143d6ed",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW062', 'originalStart': array([ 23.1507922 , 110.27039678,   1.30899694]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 49,
+    "source": "B049.mat",
+    "source_sha256": "c935bc16336e0bb93a331e97d243a2f2311e59e87b9ba307ab36ab0d7861c18d",
+    "json_sha256": "5220ed4d15638d36361e51657e2d53699c7655ab9bba580ea05105a64630a10b",
+    "map_group": "G03",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW003', 'originalStart': array([ 9.84495279, 94.11095381,  0.        ]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 50,
+    "source": "B050.mat",
+    "source_sha256": "785d6b2a6f30f0203619482f0922394648dde4f458943c907c8610908fe2afb3",
+    "json_sha256": "cbb2b35b09174daebbc1d955b78acc91c8ae58b348878860d2c31dfa70222e99",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW042', 'originalStart': array([ 23.17443357, 110.43083617,   0.        ]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 51,
+    "source": "B051.mat",
+    "source_sha256": "ef5f4b3050207a69f823067b9a0bd53cae06476e21901273a6cb1e49434cd06a",
+    "json_sha256": "f7daaaa56a80733401c13e2d8d2e55bb5679ddc59e3714066fc0787d66310dbb",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW037', 'originalStart': array([ 20.64961489, 114.57647479,  -1.5980165 ]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 52,
+    "source": "B052.mat",
+    "source_sha256": "8d6b6425ed47c7b715822a33f870f1a67eef2c495af67828badc70f64196ebe5",
+    "json_sha256": "28b208854a861268080699b94082a952e63d0e4cad227b194177da86fca4bb17",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW045', 'originalStart': array([-3.88183745, 95.95906587,  0.        ]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 53,
+    "source": "B053.mat",
+    "source_sha256": "693cc580b9b914547fc120e96fc99b6bda5622839307418d0a24ebb85f3e3527",
+    "json_sha256": "5fa7856d940167fd7b3dbed159b7b02625d7097be4a105ecb45bd128fc409e32",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW091', 'originalStart': array([12.57550595, 50.21751516, -1.16883664]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 54,
+    "source": "B054.mat",
+    "source_sha256": "3a0416f5104f389f770beec01092c5662da40f2563b8520d1f3fabef269a503e",
+    "json_sha256": "bee9774db10611ca96314862e8477307d2179032d9e7e4bbebccfab3d87e1b99",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW075', 'originalStart': array([-28.87013051,  86.85713347,   3.14159265]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 55,
+    "source": "B055.mat",
+    "source_sha256": "6dc91409a943e2cc0978ac5aaba7c645cd39ccc241cf670263d9f0cc4a898ea4",
+    "json_sha256": "24a35a1352254c4f3610d827c17d63b92921da23659f80697e8faf1516963139",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW001', 'originalStart': array([ 4.10509706, 50.44941316, -1.14503064]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 56,
+    "source": "B056.mat",
+    "source_sha256": "68ca4023fc0c2408018e3e5a7be3e26dc2060c0b96419651fc7e0af1a6599229",
+    "json_sha256": "a666d4c2426edbbe37fec24bc759d9e1b2f8fce7d847824548f5c65664bef208",
+    "map_group": "G02",
+    "provenance": "{'kind': 'procedural_environment', 'parentId': 'CW099', 'seed': 2026101804, 'parameters': {'xScale': 1.0677466877951356, 'yScale': 1.0297326784272296, 'bendAmplitude': 2.111265554109644, 'bendCenter': 51.206828974425406, 'bendWidth': 23.70440359216544, 'side': -1}, 'startRestoredToParent': 0, 'maxBoundaryDisplacement': 6.177121058307944, 'rmsBoundaryDisplacement': 2.5053683362569616}"
+  },
+  {
+    "id": 57,
+    "source": "B057.mat",
+    "source_sha256": "5d1786afa4857baff6023936d8a25acbb84c8c02607e973fe76753655c0bad92",
+    "json_sha256": "f5037670ec79895d2048c464dba6f5b632ab4c2d6bd79fc38e806fb5bdf34ce5",
+    "map_group": "G02",
+    "provenance": "{'kind': 'procedural_environment', 'parentId': 'CW002', 'seed': 2026101804, 'parameters': {'xScale': 1.046927180260492, 'yScale': 1.029022792350459, 'bendAmplitude': 1.5775159057460546, 'bendCenter': 43.78843997069773, 'bendWidth': 24.63771362741759, 'side': -1}, 'startRestoredToParent': 1, 'maxBoundaryDisplacement': 8.089110739846566, 'rmsBoundaryDisplacement': 3.108163287991903}"
+  },
+  {
+    "id": 58,
+    "source": "B058.mat",
+    "source_sha256": "869e8bd2b475a7e67c65253ee011a80a7c7284568318f0226f008f80d6a9dede",
+    "json_sha256": "877160a3e179f799997db127ac64ceaa53f2a9acf96753a694548165d2f8f988",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW063', 'originalStart': array([-29.71787688,  91.98159284,   3.14159265]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 59,
+    "source": "B059.mat",
+    "source_sha256": "54348cb3ac6edb8c4b36fa2aa108f998cb8fb9f6739e83fc4fd7a7e044b9bbc2",
+    "json_sha256": "5593de156ecf728590d4b661667ea4e3c906c1bdff00e219fb1bb8faf237a8b7",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW050', 'originalStart': array([20.7615349 , 99.22652446,  1.30899694]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 60,
+    "source": "B060.mat",
+    "source_sha256": "ee1602a6122687ca1a3678b6721db777cacd7f1cba41211fe3045b4c9ff59dbe",
+    "json_sha256": "709b0ab8d142e23c9c1f5b112fea0db93d9c81cc46ea95ed6dc869e72cc265bf",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW039', 'originalStart': array([ -3.68592586, 102.44102944,   3.14159265]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 61,
+    "source": "B061.mat",
+    "source_sha256": "3e1bb02de7655ad227fb4ce0fd014bba1da90691e84b53d03ce5bc9c00d5b469",
+    "json_sha256": "0efc69c5abc775197a7f9dcab7a6590403a4fce295393941a888e95b031a2366",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW046', 'originalStart': array([ 15.81632164, 107.56052427,  -1.62247923]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 62,
+    "source": "B062.mat",
+    "source_sha256": "de723c9f0546bc1c9453079850c992fd5d886e1a186e6f385d5b785e0e82bfab",
+    "json_sha256": "c0fc0d2b404113b3f32b7be4bbfe2875251a57fc60cbda02e68b331e1731b5f5",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW071', 'originalStart': array([-3.58303369, 79.96570293,  1.83259571]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 63,
+    "source": "B063.mat",
+    "source_sha256": "0aace0d9e64d60a841cf56683e0e0ab4e1334f07a82bf46615a62a21e9ab5a89",
+    "json_sha256": "0725ffb6e7dfd6ab28af2f0719ba80db1c3fc11eace710169ae15c2b9560d565",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW041', 'originalStart': array([ 4.0083895 , 45.27278257,  1.83259571]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 64,
+    "source": "B064.mat",
+    "source_sha256": "f29a269d3a40ac95d1febca456beb0a5fe9d273976452a3e8555a03546afb899",
+    "json_sha256": "57f9bda5da34cd367c0e3c811a5401f26d67916d63cfef6eb164a713da87bd62",
+    "map_group": "G04",
+    "provenance": "{'kind': 'procedural_environment', 'parentId': 'CW100', 'seed': 2026101804, 'parameters': {'xScale': 1.0733098591401857, 'yScale': 1.0335844488894843, 'bendAmplitude': 2.2410198272125363, 'bendCenter': 48.636894509052254, 'bendWidth': 18.169073552575462, 'side': 1}, 'startRestoredToParent': 0, 'maxBoundaryDisplacement': 10.512785491814114, 'rmsBoundaryDisplacement': 5.371908291308804}"
+  },
+  {
+    "id": 65,
+    "source": "B065.mat",
+    "source_sha256": "768b04e005124e7f37995af3739937ee412ca97aff6b569c20ae1f52bf249e69",
+    "json_sha256": "1779cd4195115159a81e344423d6fef32ef3b60a8fa4241c55f76217641cb013",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW025', 'originalStart': array([ 13.54971864, 114.57645961,  -1.5980165 ]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 66,
+    "source": "B066.mat",
+    "source_sha256": "8b33108449a1f37d764601d42ff78916a15956d1cf31eb38a1050ee49e87a1d8",
+    "json_sha256": "029758251f7fd53b1de070d4b8ae24c4f4b2a9d3c145281947c6274c79d7add0",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW055', 'originalStart': array([18.39061499, 46.51130761, -1.16968831]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 67,
+    "source": "B067.mat",
+    "source_sha256": "8846fd4edc946363faf6ff93742c14a1019991c13b2e629126688d3cfdf730cd",
+    "json_sha256": "b3d558b195d5a7d9b5b29f55476ea624069a2de7f3bdbd6a49ddbc6929bec9c8",
+    "map_group": "G05",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW014', 'originalStart': array([ 8.23214649, 95.6141745 ,  1.30899694]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 68,
+    "source": "B068.mat",
+    "source_sha256": "d357e0766b4a5908d0c3465703cdcac9c0cc8d8ea33f579aa5cc5f0ab4f3f086",
+    "json_sha256": "1c22fdab1f8cad4c4213b316a982908a11190352a9d03a6001a9d30f52095a19",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW017', 'originalStart': array([ 23.13050157, 108.39641111,   1.57079633]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 69,
+    "source": "B069.mat",
+    "source_sha256": "872539f0cf2848550f14f0d23d1544bbe34e8f562a7aacdf70af9513539880ac",
+    "json_sha256": "bb9ae8e3717f1c17b3506f7bd51ce84628f6436fd66bd03abe3b42d906086aae",
+    "map_group": "G02",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW002', 'originalStart': array([ 27.70211167, 128.63144817,   1.57079633]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 70,
+    "source": "B070.mat",
+    "source_sha256": "3f15025ee1377f18812b27c2af1ce409d583771cb18fad504464e5bc93ebea5c",
+    "json_sha256": "c77deeecc80afe69e21ffde98f0f923d27f9b42b639afec0344fa7a20e8b4251",
+    "map_group": "G05",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW010', 'originalStart': array([ 8.18017832, 95.60144855, -1.49618494]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 71,
+    "source": "B071.mat",
+    "source_sha256": "c291fc9308f2b9540ccef40d86bb8a58f76fea11817b639c1c7fad05d157b40f",
+    "json_sha256": "2cd058cb4b37278792c140653aa65ab19b5287328d41a681b2528f1925487565",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW021', 'originalStart': array([13.59804106, 99.51012831,  0.        ]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 72,
+    "source": "B072.mat",
+    "source_sha256": "aa4219493b6f99aee3608212570edffaab86ebed892400ff80b2b0cf251ae6e7",
+    "json_sha256": "0df285690e586c92db794c78d1b8644392c8cfe425a71054a66b87ae2348f962",
+    "map_group": "G02",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW028', 'originalStart': array([ 7.74580155, 93.80575024, -1.71065782]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 73,
+    "source": "B073.mat",
+    "source_sha256": "95f78638b93a286dfb07f2e0c73d2ac5514a6d2bc50fadc1b4340952a050d217",
+    "json_sha256": "ae14f5df7310bed837f2b9e457588758844f1265bc56c29ecba23c7320530b7b",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW031', 'originalStart': array([-3.77308374, 98.80686978, -1.14191873]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 74,
+    "source": "B074.mat",
+    "source_sha256": "269dfcc2cbde765a3dd275b120307c12a657f66b6c17c533d7299e5a23855597",
+    "json_sha256": "528f2344737cf338496f3bf21751b38db8069ff9f3c2e9edf5a0a9cd5fce51f4",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW053', 'originalStart': array([10.16584164, 45.11314507,  1.83259571]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 75,
+    "source": "B075.mat",
+    "source_sha256": "a4caebf6b0ab38c47d69d5cca8a8d481223e76828cb49b00725e45f7bee55b13",
+    "json_sha256": "881d548c523e0b55c20416f3e991904526a1bb64bc4457c6ddcd40d742b0750e",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW058', 'originalStart': array([ 16.13410417, 110.52244608,  -1.62247923]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 76,
+    "source": "B076.mat",
+    "source_sha256": "a75f1b75835f84651dd813f82eaa2f6f7fd2094843531072dea86ca3352ccd21",
+    "json_sha256": "f3504697a86cb31363492dc79de3e1d96c44bb45f6fad2d869df3047a82ff5e2",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW067', 'originalStart': array([18.72100934, 46.29802239, -1.17676806]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 77,
+    "source": "B077.mat",
+    "source_sha256": "2d20d83ddfb3d50dc476be67a14feb189f19c860bd8659d11fec3c8162c9bb68",
+    "json_sha256": "12d561f1f8b5f71c97489ba110ccb361ab667707c636ce25ff1fac94bb06eb60",
+    "map_group": "G06",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW006', 'originalStart': array([-30.7156014 , 145.45808837,   0.        ]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 78,
+    "source": "B078.mat",
+    "source_sha256": "4a7e87a8da7f204d41e12eb00dd2a69aa8d9211bdf9f09993a56dfe9c7d527d3",
+    "json_sha256": "395a01bb8fd96ddcba2fec2540abbaca2430cfee69667e182e8219a6bb843d1d",
+    "map_group": "G04",
+    "provenance": "{'kind': 'procedural_environment', 'parentId': 'CW009', 'seed': 2026101804, 'parameters': {'xScale': 1.0791036636854328, 'yScale': 1.022422509881335, 'bendAmplitude': 1.753433517092069, 'bendCenter': 49.72351469816017, 'bendWidth': 19.221799104346868, 'side': -1}, 'startRestoredToParent': 1, 'maxBoundaryDisplacement': 7.583437479326095, 'rmsBoundaryDisplacement': 3.854714552857434}"
+  },
+  {
+    "id": 79,
+    "source": "B079.mat",
+    "source_sha256": "304ebdbd1526cc3b78d9795dfb70be8369ddf0a8676aec11ce58874909716650",
+    "json_sha256": "2ea10a6b6eb3e00cc2864d3e417bb3268efe0163f78ea3ae557519c4fad82cdf",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW056', 'originalStart': array([ 23.04030925, 108.48913627,   1.30899694]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 80,
+    "source": "B080.mat",
+    "source_sha256": "082c5ef997eb16f95d35f8a68bd564fb007db71cb9255457607b444134d9f3f8",
+    "json_sha256": "fa156c21579168b10a79dd015128c5f6ebee7362af2dbb103b8c9c3cd5533b2c",
+    "map_group": "G01",
+    "provenance": "{'kind': 'procedural_environment', 'parentId': 'CW098', 'seed': 2026101804, 'parameters': {'xScale': 1.0537367855079578, 'yScale': 1.0335351140318816, 'bendAmplitude': 1.6307598912422705, 'bendCenter': 37.56058706506111, 'bendWidth': 22.861948359448274, 'side': 1}, 'startRestoredToParent': 0, 'maxBoundaryDisplacement': 2.7854983530228985, 'rmsBoundaryDisplacement': 0.2766079908721974}"
+  },
+  {
+    "id": 81,
+    "source": "B081.mat",
+    "source_sha256": "7ca5b917791f27273ac2c125c41cc0d0c4ecacc13e515c6b365a849fdac6b568",
+    "json_sha256": "e04af4194f9534b66af99e6e757b12ebf7ff067d298a44ffcd9c18895e109f34",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW054', 'originalStart': array([ 29.69044752, -74.27691177,   0.        ]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 82,
+    "source": "B082.mat",
+    "source_sha256": "e3bffa3264508da7a8958c43f333e6a47f32ac7cbbf77ba76227e79a09587c48",
+    "json_sha256": "542920d2c35de144cb5ecfa240154906a81a0f04ef5c77da833ade12affd648a",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW051', 'originalStart': array([ 5.1532188 , 50.85083676,  3.14159265]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 83,
+    "source": "B083.mat",
+    "source_sha256": "953d4b39e56eaa502188000424b124bb4d9e8f51d270efbc9123ae25ba0998ca",
+    "json_sha256": "0a88cc054170aa7d147c119ded6536a8a3ba3930302f8ba05e41d22ba4711ff0",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW081', 'originalStart': array([-11.31640917,  94.48198804,   3.14159265]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 84,
+    "source": "B084.mat",
+    "source_sha256": "6e3319df7d62c4277ddf23ecbed4800d12e9d1f5fd0f41973006aad142af368d",
+    "json_sha256": "fcaa72a73e3fbdb57cabab6c324977d9096c28b904fba7208429bed8aaa56710",
+    "map_group": "G02",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW024', 'originalStart': array([ 28.3100239 , 128.49388848,   3.14159265]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 85,
+    "source": "B085.mat",
+    "source_sha256": "4d73a96000db079bf1fea7c7c79aeca7fe5ee140fc44b5cb7762b1b97f4648b9",
+    "json_sha256": "c81fdbfc91bafcd25c91ffe0687123389c7b38f2222d5a94d5f21311557d5929",
+    "map_group": "G02",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW032', 'originalStart': array([-21.77817298,  71.20169952,   1.83259571]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 86,
+    "source": "B086.mat",
+    "source_sha256": "e26ac6a372291eb204354e532eba96d60103bc8059411aa1e8da94e1949d3626",
+    "json_sha256": "ac8916890a97ac91a3e6ad97febe702e3622b0af5e79622e8b8b901db4c7ba85",
+    "map_group": "G02",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW008', 'originalStart': array([ 12.98500121, 130.8016934 ,   1.83259571]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 87,
+    "source": "B087.mat",
+    "source_sha256": "13305fff1190bc5e21111e862e7ccd0ec1006077a379d08b818bd0425cb7f178",
+    "json_sha256": "fee0a4890c254bc48faaf3c42c939206b4cd63e73ca075c1bb5e880c3c507161",
+    "map_group": "G01",
+    "provenance": "{'kind': 'procedural_environment', 'parentId': 'CW001', 'seed': 2026101804, 'parameters': {'xScale': 1.047552024323819, 'yScale': 1.026141775715467, 'bendAmplitude': 1.9230729945110048, 'bendCenter': 35.44180367222501, 'bendWidth': 21.869810201982688, 'side': 1}, 'startRestoredToParent': 1, 'maxBoundaryDisplacement': 2.462037595623603, 'rmsBoundaryDisplacement': 0.25661321484381405}"
+  },
+  {
+    "id": 88,
+    "source": "B088.mat",
+    "source_sha256": "1ce5138c7add0a088b6f9fb01306f1d69eb9523444f2f841e4e1036ffe289698",
+    "json_sha256": "f94b069ba02973e2726eaa3314c770f93399a497eeceb9b17c478ac2fd8a294f",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW015', 'originalStart': array([ 3.37026048, 50.94174787,  3.14159265]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 89,
+    "source": "B089.mat",
+    "source_sha256": "c2f3328c01e0baec999bb2ac0f40138a00eab4a1edfc7237e3a5f82e3b91a6a6",
+    "json_sha256": "2c40a970442120aabe40eff53bcd4c553c67098e0c6a467ac8939b375f02929d",
+    "map_group": "G05",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW038', 'originalStart': array([ 1.11454055, 91.81809536,  1.30899694]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 90,
+    "source": "B090.mat",
+    "source_sha256": "0cf66fa4d6264cc776858f4cc886d8da4b9b0e779588373f92cf7c4aa11d3747",
+    "json_sha256": "a30721b664ec160a966a1963a24ec411213c504ff8f369d4a400e284bc83438c",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW076', 'originalStart': array([12.23711865, 50.56302335, -1.16287941]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 91,
+    "source": "B091.mat",
+    "source_sha256": "f38e49faa65834e917f17ce96bdeff2ac1bc2f021610d7198e551e72ec441d49",
+    "json_sha256": "185d94920fe3c1caee1a03f10cbaf6b14b1592a4b32b225e86479ba1e571a4b8",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW013', 'originalStart': array([ 15.87776662, 108.82935215,  -1.62247923]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 92,
+    "source": "B092.mat",
+    "source_sha256": "5ad91b01e46208eca3668af2bdedf7e9707cfb59988cd41f27d4efe49387bd6d",
+    "json_sha256": "0a63d1c3011fdcb3a9f0f0a34a42bc9e0cf67116563a8346a0065ee3b669398a",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW064', 'originalStart': array([13.88600022, 99.49445654, -1.63839664]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 93,
+    "source": "B093.mat",
+    "source_sha256": "2c5041416b898d202f359deca8f5268efa36e28300975f8e17bfe65022da67af",
+    "json_sha256": "749991f29c5639a1ba508efb898158acaad58261de897e3521ce34bbcf39f090",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW023', 'originalStart': array([-11.31640917,  94.48198804,   1.30899694]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 94,
+    "source": "B094.mat",
+    "source_sha256": "3ddae5a1a461d72dd8b1a67ae2168223b1db83fe16095493af3ea9aefbc91288",
+    "json_sha256": "c052846ec0dfe6adfe396ac0665d5e29b588d54f91ea62183b977f8d6fdd7d10",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW069', 'originalStart': array([ -3.65347722, 101.69473982,   0.        ]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 95,
+    "source": "B095.mat",
+    "source_sha256": "5ec6174329ed9658c33b4348f3645da992e9ae5cf4b6b87eee536c7b7c450c40",
+    "json_sha256": "28687dc3d9bf9485b6a2d2920ce7dccd3c08afa71065a129c2018d3a68fcb511",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW052', 'originalStart': array([ 16.13586853, 112.58124174,  -1.62247923]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 96,
+    "source": "B096.mat",
+    "source_sha256": "1e17bcd832e35bc20eed3d6b22f78db28b0e5f101b31118b6f1184c12cd350b8",
+    "json_sha256": "e8e6a4879a964631229485e0ff820651b2726beb72908724d93e9b65c24101cb",
+    "map_group": "G04",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW070', 'originalStart': array([ 23.34777119, 113.81497409,  -1.62247923]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 97,
+    "source": "B097.mat",
+    "source_sha256": "ef0c2c88b719f11d1521393d427e29bade0b53559e9a11e7f07ca0056c4bec23",
+    "json_sha256": "8f5ac30f731a790d77c7ea31d763eea7dea1d6c613e6c376e1c2eac3ea94bced",
+    "map_group": "G03",
+    "provenance": "{'kind': 'procedural_environment', 'parentId': 'CW094', 'seed': 2026101804, 'parameters': {'xScale': 1.0771217914854563, 'yScale': 1.021615093386883, 'bendAmplitude': 1.9272280901687449, 'bendCenter': 39.08401527257959, 'bendWidth': 18.951635949584944, 'side': -1}, 'startRestoredToParent': 0, 'maxBoundaryDisplacement': 3.5681259160534142, 'rmsBoundaryDisplacement': 1.0710969478375916}"
+  },
+  {
+    "id": 98,
+    "source": "B098.mat",
+    "source_sha256": "85c7e2db3f3ee8cd7f26c4b4fb51dae9c0f5d42916ae44b924c05bd2cbdf5408",
+    "json_sha256": "1cb09aae74fc8c2fd1cd2f96722fe6dc4e9590779f3810f08b772b3077179218",
+    "map_group": "G05",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW018', 'originalStart': array([ 8.22737612, 93.35761118,  3.14159265]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 99,
+    "source": "B099.mat",
+    "source_sha256": "8ef6aeb5269a0e504747086a1c072f379cca8dea99a4da554031fb3a3eba1ca9",
+    "json_sha256": "90b3c98c11828088b4f43d00caef72100844e6b70bdb2105638856734971aee8",
+    "map_group": "G01",
+    "provenance": "{'kind': 'real_map_controlled_task', 'parentId': 'CW087', 'originalStart': array([-11.5240474 , 100.13484678,   3.14159265]), 'delta': array([0, 0, 0], dtype=uint8), 'seed': 0, 'attempt': 0}"
+  },
+  {
+    "id": 100,
+    "source": "B100.mat",
+    "source_sha256": "65db5afd9ad8316844275601156a050831ec76f6a5033179c357d3400a736d02",
+    "json_sha256": "bef74ab6a9843a7134322af1800fecb25c754578a72155442b60499202fc96ab",
+    "map_group": "G04",
+    "provenance": "{'kind': 'corrected_start', 'parentId': 'CW095', 'originalStart': array([26.87080397, 74.1815439 ,  1.74532925]), 'delta': array([ 0, -8,  0], dtype=int16), 'seed': 0, 'attempt': 0}"
+  }
+]

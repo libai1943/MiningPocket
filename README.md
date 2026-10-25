@@ -1,59 +1,61 @@
-# MiningPocket: branching and recursive motion planning
+# MiningPocket
 
-Reproducibility artifact for **BRS: Branching and Recursive Sampling for Motion Planning of Autonomous Mining Trucks in Narrow Unstructured Loading Pockets**.
+Native C++ implementations and the 100-task benchmark for **BRS: Branching and Recursive Sampling for Motion Planning of Autonomous Mining Trucks in Narrow Unstructured Loading Pockets**.
 
-This repository supplies BRS, four comparison planners (HA, BIAGT, GHA-search, and CC-A*), the fixed 100-task benchmark, twelve independent synthetic pockets, and a common trajectory evaluator. It includes 500 main comparisons, 60 independent-geometry queries, 300 component queries, and 45 timing repetitions. Every query has an outcome and measured runtime. Main-comparison and independent-geometry trajectories have independent validation records.
+The repository contains BRS, Hybrid A* (HA), the static BIAGT search, the GHA search front end of C-MINLP, and a continuous-curvature A* comparison (CC-A*). Every planner uses the same vehicle, fixed scenes, collision checker, terminal reverse approach, speed parameterization, and execution-cost evaluator. The planner executable has no MATLAB, MATLAB Engine, MATLAB Runtime, or Navigation Toolbox dependency.
 
-## Quick start
+## Build
 
-MATLAB R2021b or later with Navigation Toolbox supports all five planners. BRS uses the bundled MATLAB packages.
+A C++17 compiler and CMake 3.18 or later are sufficient. JSON support and the analytic Reeds–Shepp implementation are included. The build unpacks `benchmark/cases.zip` once into 100 JSON scene files, preserving their recorded byte hashes.
 
-```matlab
-miningpocket_setup
-r = plan_case(3,'BRS');
-view_case(3,'BRS')
-run_benchmark                         % fresh 100-task comparison
-validate_recorded                     % independently audit supplied paths
-addpath('tests'); test_numerics
+```sh
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+cmake --build build --config Release
+ctest --test-dir build -C Release --output-on-failure
 ```
 
-Python 3 can verify the archives and recalculate the metrics without additional packages:
+The executable is `build/miningpocket` on a single-configuration Unix build and usually `build/Release/miningpocket.exe` with Visual Studio. The Windows measurement build uses LLVM-MinGW Clang, `-std=c++17 -O3 -DNDEBUG -static`, and one computational thread. `tools/build.ps1 -Compiler <path-to-clang++.exe>` builds the same single executable directly.
 
-```text
-python tools/verify_artifact.py
-python tools/recompute_metrics.py
+## Run one task or all 100
+
+Run from the repository root, replacing the executable path for your build:
+
+```sh
+build/miningpocket run . --case 30 --method BRS --out case30.jsonl
+build/miningpocket run . --all --method BRS --out brs100.jsonl
+build/miningpocket run . --case 3 --method "CC-A*"
 ```
 
-`run_paper_experiments` saves individual queries under `results/validated/` and resumes completed queries. `run_holdout_experiments`, `run_component_experiments`, and `run_timing_repeats` reproduce the additional studies. The component runner also exports numerical paper data and checks the source polygons of the independent tasks. Run the studies sequentially when collecting runtimes.
+Method names are `BRS`, `HA`, `BIAGT`, `GHA`, and `CC-A*`. The parameters in `benchmark/parameters.json` apply to every query. Cases #1–#100 are the complete benchmark; no subset is needed.
 
-To regenerate the complete paper study, run the following sequence. The final command also performs the timing repetitions, exports the plot inputs, and validates the independent source geometry.
+The default query limit is 10 seconds. It covers map indexing, candidate construction, search, collision checks, time parameterization, and return preparation. Input file loading and JSON serialization are outside that interval. A shared deadline with a 0.2-second return reserve interrupts long operations. A completed incumbent is retained when further bounded selection is interrupted. Calls returned after the deadline are failures.
 
-```matlab
-run_paper_experiments
-run_holdout_experiments
-run_component_experiments
+Branch I returns its first complete feasible reverse-only trajectory. A successful one-cusp construction can evaluate up to 30 feasible candidates within 0.5 seconds after its first complete solution. It retains the lowest complete-trajectory cost among those candidates and returns without opening another branch. Prefix invocations retain the original start for complete-path validation and scoring. `--first-only` disables subsequent candidate improvement for first-solution diagnostics. `--refine` enables the optional bounded graph-refinement component; the default leaves Branch I immediate-return.
+
+## Experiments and validation
+
+`tools/run_study.py` runs methods sequentially, rotating their order over the 100 tasks. It requires Python 3 and `psutil` for orchestration and process monitoring only. Planning and evaluation remain native C++.
+
+```sh
+python tools/run_study.py comparison --exe build/miningpocket --cpu 2
+python tools/run_study.py components --exe build/miningpocket --cpu 2
+python tools/run_study.py selection --exe build/miningpocket --cpu 2
+python tools/run_diagnostics.py --exe build/miningpocket --cpu 2
+build/miningpocket validate-results . --out results/comparison100.jsonl
+build/miningpocket parity . --out parity.json
+build/miningpocket selftest .
 ```
 
-## Task and execution model
+Choose a logical CPU that belongs to a performance core on the measurement machine. All planners must use the same affinity, optimized build, thread setting, and background conditions. Avoid concurrent experiments, compilation, or plotting while collecting times. Omitting `--cpu` preserves the operating system's affinity setting. Hardware, compiler/build metadata, source hashes, executable hash, and sampled process load accompany each study.
 
-Coordinates are local planar metres. The physical truck is 10.4 by 4.9 m, with wheelbase 6.22 m and minimum turning radius 15 m. Planning adds a 0.5 m buffer on all four sides. All planners share endpoint tolerances, a compulsory final reverse straight, collision rules, and time parameterization. The fixed evaluation is `J = T_f + 10 N_s`; actual stationary dwell is included in `T_f`, and `N_s` counts additional internal stops.
+The main comparison always uses the 10-second deadline. `run_diagnostics.py` reruns only task–method pairs that failed the main comparison, with a 500-second limit and immediate return after the first complete feasible trajectory. These diagnostics never change the main success counts. A timeout is retained as a failure.
 
-The main benchmark contains mining-map-derived and constructed tasks used in method development. The twelve synthetic pockets vary environmental geometry with fixed parameters and retain every generated valid task. See [benchmark definition](docs/benchmark.md) and [method and evaluation details](docs/methods.md).
+`validate-results` rechecks successful trajectories at 0.02 m spacing and recomputes endpoint, reverse-approach, curvature, dynamic, execution-time, and cost conditions. `parity` checks 500 fixed geometry/evaluation fixtures; `selftest` checks analytic connectors, small-angle handling, and execution constraints. The reference trajectories are validation fixtures, not cached planner answers.
 
-## Recorded results
+## Results and interpretation
 
-BRS solves 100/100 fixed tasks under independent checking. The common-success comparison across five methods contains 100 tasks. On that shared set, BRS has mean model-predicted execution time 65.61 s, 0.48 additional stops, and mean relative cost gap 1.34%. It obtains the lowest tested cost in 94 of the 100 main tasks, including ties. The supplied metric script derives the complete comparison from individual query records. `python tools/plot_paper_figures.py` recreates the numerical figures from the released data using NumPy, Matplotlib, and an installed Times New Roman font. The shared palette is defined in `tools/palette.py`.
+`results/comparison100.jsonl` contains one record per task and method (500 records). Each record includes success, failure reason, first complete feasible time, final planning time, stage timings, candidate counts, and—on success—the complete geometric path, predicted execution time, additional stops, cusps, and cost. `results/components100.jsonl` and `results/selection100.jsonl` report the stated component studies on the same 100 tasks. `results/diagnostic100.jsonl` contains separate extended first-solution diagnostics.
 
-Planning times are sequential MATLAB wall-clock measurements on the platform described in `qa/experiment_environment.json`. Execution times are predictions of the common vehicle model. The manuscript states the finite candidate and graph properties supported by the algorithm; the benchmark results characterize the supplied tasks.
+The common cost is `J = execution_seconds + stop_penalty * extra_stops`; the experimental stop penalty is 10 seconds per additional internal stop. Actual stationary steering, gear-change, and settling durations are already included in execution time. The additional penalty is an operational preference, not an extra physical wait. Quality and relative-runtime averages use the common-success task intersection. Absolute planning-time means and success rates use all 100 attempts, including failures. A best-result label means the best validated result among the tested methods for that task.
 
-## Files
-
-- `src/`: planners, shared connectors, collision tests, and trajectory evaluator.
-- `benchmark/`: 100 fixed tasks, twelve independent pockets, and provenance.
-- `results/recorded/`: main query records and compressed MATLAB trajectories.
-- `results/holdout/`, `results/components/`, `results/timing/`: additional studies.
-- `results/paper_data/`: numerical inputs for the manuscript figures.
-- `qa/`: source, input, and result fingerprints and validation reports.
-- `tests/`: portable planning and numerical checks.
-
-Archives contain actual MATLAB files; no Git LFS or private data service is needed. Third-party notices appear in `THIRD_PARTY_LICENSE.txt`. Consult the authors before redistribution or commercial reuse of material without a separate licence.
+See [task and result definitions](docs/DATA_FORMAT.md), [method details](docs/METHODS.md), and [third-party notices](THIRD_PARTY_NOTICES.md). The reading PDF and the complete manuscript/figure-source archive are in `paper/`.

@@ -1,0 +1,179 @@
+{
+  "timing_scope": "Exclusive nested-stage wall-clock times; stage totals exclude output serialization.",
+  "BRS_stage_totals": {
+    "collision": 31.390746699999713,
+    "connector": 9.322861999999985,
+    "direct_connection": 0.0011352000000000024,
+    "final_validation": 0.0008816,
+    "local_scheduler": 0.0009397,
+    "map_index": 0.10728939999999995,
+    "query": 0.066606,
+    "time_parameterization": 0.10320869999999999,
+    "fan_generation": 0.03137889999999905,
+    "layered_search": 0.004242099999999999,
+    "start_side_candidates": 0.017459099999998243,
+    "goal_side_candidates": 0.06839989999999542,
+    "prefix_expansion": 0.0010309
+  },
+  "case30": {
+    "J": 135.52907079377871,
+    "branch": "prefix+II-fan",
+    "candidates": 30,
+    "case": 30,
+    "cusps": 2,
+    "deadline_checks": 1442496,
+    "deadline_seconds": 10.0,
+    "dwell_seconds": 5.0,
+    "execution_seconds": 115.52907079377871,
+    "expanded": 24,
+    "extra_stops": 2,
+    "first_feasible_seconds": 7.8624576,
+    "length": 215.68628443505438,
+    "method": "BRS",
+    "moving_seconds": 110.52907079377871,
+    "path": [
+      [
+        1.0,
+        0.0,
+        -0.06666666666666667,
+        -1
+      ],
+      [
+        2.0,
+        -0.06666666666666667,
+        -0.06666666666666667,
+        -1
+      ],
+      [
+        1.0,
+        -0.06666666666666667,
+        0.0,
+        -1
+      ],
+      [
+        1.0,
+        0.0,
+        0.06666666666666667,
+        1
+      ],
+      [
+        10.0,
+        0.06666666666666667,
+        0.06666666666666667,
+        1
+      ],
+      [
+        1.0,
+        0.06666666666666667,
+        0.0,
+        1
+      ],
+      [
+        4.0,
+        0.0,
+        -0.06666666666666667,
+        1
+      ],
+      [
+        55.7411465046729,
+        -0.06666666666666667,
+        -0.06666666666666667,
+        1
+      ],
+      [
+        4.0,
+        -0.06666666666666667,
+        0.0,
+        1
+      ],
+      [
+        103.82207728583253,
+        0.0,
+        0.0,
+        1
+      ],
+      [
+        1.7915303222744585,
+        0.0,
+        -0.029858838704574307,
+        1
+      ],
+      [
+        1.7915303222744585,
+        -0.029858838704574307,
+        0.0,
+        1
+      ],
+      [
+        28.54,
+        0.0,
+        0.0,
+        -1
+      ]
+    ],
+    "planning_seconds": 8.08843,
+    "prefix_depth": 2,
+    "reason": "success",
+    "selection_limit": 30,
+    "selection_seconds": 0.5,
+    "stages": {
+      "collision": {
+        "calls": 61759,
+        "seconds": 5.015288299999558
+      },
+      "connector": {
+        "calls": 7289,
+        "seconds": 3.037170799999987
+      },
+      "direct_connection": {
+        "calls": 50,
+        "seconds": 0.00023620000000000214
+      },
+      "fan_generation": {
+        "calls": 53,
+        "seconds": 0.007550499999999241
+      },
+      "final_validation": {
+        "calls": 30,
+        "seconds": 3.4200000000000005e-05
+      },
+      "goal_side_candidates": {
+        "calls": 27,
+        "seconds": 0.007369399999997596
+      },
+      "layered_search": {
+        "calls": 25,
+        "seconds": 1.6499999999999998e-05
+      },
+      "local_scheduler": {
+        "calls": 25,
+        "seconds": 6.840000000000004e-05
+      },
+      "map_index": {
+        "calls": 1,
+        "seconds": 0.0011746
+      },
+      "prefix_expansion": {
+        "calls": 1,
+        "seconds": 0.0006224999999999999
+      },
+      "query": {
+        "calls": 1,
+        "seconds": 0.006797699999999999
+      },
+      "start_side_candidates": {
+        "calls": 26,
+        "seconds": 0.008707999999998457
+      },
+      "time_parameterization": {
+        "calls": 30,
+        "seconds": 0.0033916999999999997
+      }
+    },
+    "success": true,
+    "recorded_at": "2026-10-25T15:29:24.334183",
+    "configuration": "BRS"
+  },
+  "all_brs_success": true,
+  "max_brs_seconds": 8.08843
+}

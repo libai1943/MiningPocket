@@ -1,0 +1,14 @@
+{
+  "build": "tools/build.ps1 with explicit LLVM-MinGW compiler",
+  "selftest": {
+    "failed": 0,
+    "maximum_endpoint_error": 3.1296161105196403e-13,
+    "near_zero_time_delta": -9.719780180716953e-08,
+    "paths": 27482
+  },
+  "smoke_case": 3,
+  "geometry_and_cost_equal": true,
+  "source_bytes_equal": true,
+  "exe_sha256": "db9964b186ca8fd95f7289563d685f94f05a28a577d90a5506251043fcccfc6a",
+  "runtime_dependencies": "Windows Universal CRT and KERNEL32 only; no MATLAB libraries"
+}

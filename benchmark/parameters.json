@@ -1,0 +1,22 @@
+{
+  "margin": 0.5,
+  "collision_step": 0.04,
+  "verification_step": 0.02,
+  "timing_step": 0.1,
+  "v_forward": 4,
+  "v_reverse": 2,
+  "acceleration": 0.5,
+  "braking": 0.7,
+  "lateral_acceleration": 1,
+  "steering_rate": 0.08726646259971647,
+  "gear_time": 2,
+  "settle_time": 0.5,
+  "stop_penalty": 10,
+  "deadline_seconds": 10,
+  "return_reserve_seconds": 0.2,
+  "position_tolerance": 1e-05,
+  "heading_tolerance": 1e-07,
+  "curvature_tolerance": 1e-08,
+  "brs_candidate_limit": 30,
+  "brs_selection_seconds": 0.5
+}

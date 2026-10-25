@@ -1,0 +1,270 @@
+{
+  "comparison": {
+    "samples": 378,
+    "system_cpu_mean": 8.806878306878307,
+    "system_cpu_max": 17.5,
+    "other_processes": {
+      "explorer.exe": {
+        "active_samples": 546,
+        "mean_one_core_percent": 9.65886710367565,
+        "max_one_core_percent": 41.74467718354093
+      },
+      "System": {
+        "active_samples": 351,
+        "mean_one_core_percent": 6.303563875469036,
+        "max_one_core_percent": 97.6094720747185
+      },
+      "Weixin.exe": {
+        "active_samples": 291,
+        "mean_one_core_percent": 6.668149148730383,
+        "max_one_core_percent": 107.00226972281021
+      },
+      "Notepad.exe": {
+        "active_samples": 301,
+        "mean_one_core_percent": 6.368954354725841,
+        "max_one_core_percent": 19.594122641590733
+      },
+      "WINWORD.EXE": {
+        "active_samples": 289,
+        "mean_one_core_percent": 4.50870516724791,
+        "max_one_core_percent": 22.151771319924013
+      },
+      "chrome.exe": {
+        "active_samples": 256,
+        "mean_one_core_percent": 4.874326666043587,
+        "max_one_core_percent": 96.76825799054494
+      },
+      "aTrustAgent.exe": {
+        "active_samples": 46,
+        "mean_one_core_percent": 24.91499164788772,
+        "max_one_core_percent": 88.5499581384989
+      },
+      "ChatGPT.exe": {
+        "active_samples": 254,
+        "mean_one_core_percent": 4.511722505780665,
+        "max_one_core_percent": 146.85825077334712
+      },
+      "SearchHost.exe": {
+        "active_samples": 276,
+        "mean_one_core_percent": 3.9128688513645873,
+        "max_one_core_percent": 13.291062791954408
+      },
+      "QQPCRTP.exe": {
+        "active_samples": 244,
+        "mean_one_core_percent": 3.969978460248236,
+        "max_one_core_percent": 12.379000574801877
+      },
+      "svchost.exe": {
+        "active_samples": 289,
+        "mean_one_core_percent": 2.75452374802753,
+        "max_one_core_percent": 87.25174095133893
+      },
+      "QQPCTray.exe": {
+        "active_samples": 242,
+        "mean_one_core_percent": 3.076627566761685,
+        "max_one_core_percent": 8.760403090202848
+      }
+    }
+  },
+  "components": {
+    "samples": 111,
+    "system_cpu_mean": 9.083783783783783,
+    "system_cpu_max": 18.7,
+    "other_processes": {
+      "explorer.exe": {
+        "active_samples": 162,
+        "mean_one_core_percent": 10.345196162990078,
+        "max_one_core_percent": 47.34331517734077
+      },
+      "System": {
+        "active_samples": 99,
+        "mean_one_core_percent": 7.682304869574474,
+        "max_one_core_percent": 76.45217855204908
+      },
+      "Notepad.exe": {
+        "active_samples": 91,
+        "mean_one_core_percent": 6.163740982130874,
+        "max_one_core_percent": 20.723501538344976
+      },
+      "Weixin.exe": {
+        "active_samples": 90,
+        "mean_one_core_percent": 5.537953759091872,
+        "max_one_core_percent": 20.578482189046603
+      },
+      "svchost.exe": {
+        "active_samples": 89,
+        "mean_one_core_percent": 5.225334740772723,
+        "max_one_core_percent": 100.65327603986705
+      },
+      "QQPCRTP.exe": {
+        "active_samples": 85,
+        "mean_one_core_percent": 5.466255548890421,
+        "max_one_core_percent": 14.382123715006095
+      },
+      "WINWORD.EXE": {
+        "active_samples": 83,
+        "mean_one_core_percent": 4.576415203711394,
+        "max_one_core_percent": 14.948506342554513
+      },
+      "aTrustAgent.exe": {
+        "active_samples": 16,
+        "mean_one_core_percent": 21.805832201897957,
+        "max_one_core_percent": 97.93904900610052
+      },
+      "SearchHost.exe": {
+        "active_samples": 78,
+        "mean_one_core_percent": 4.389374745613263,
+        "max_one_core_percent": 13.876488931289536
+      },
+      "chrome.exe": {
+        "active_samples": 70,
+        "mean_one_core_percent": 4.684004210764927,
+        "max_one_core_percent": 24.477727255336628
+      },
+      "ChatGPT.exe": {
+        "active_samples": 80,
+        "mean_one_core_percent": 3.786690154569614,
+        "max_one_core_percent": 18.798940624900656
+      },
+      "QQPCTray.exe": {
+        "active_samples": 72,
+        "mean_one_core_percent": 3.273814355527369,
+        "max_one_core_percent": 9.58808247667073
+      }
+    }
+  },
+  "selection": {
+    "samples": 95,
+    "system_cpu_mean": 8.836842105263157,
+    "system_cpu_max": 14.8,
+    "other_processes": {
+      "explorer.exe": {
+        "active_samples": 153,
+        "mean_one_core_percent": 8.73767005119978,
+        "max_one_core_percent": 32.67418285433183
+      },
+      "System": {
+        "active_samples": 92,
+        "mean_one_core_percent": 7.434270571107493,
+        "max_one_core_percent": 86.61408182441376
+      },
+      "Notepad.exe": {
+        "active_samples": 85,
+        "mean_one_core_percent": 6.3965986527729095,
+        "max_one_core_percent": 16.920915377932417
+      },
+      "QQPCRTP.exe": {
+        "active_samples": 78,
+        "mean_one_core_percent": 5.518374609622633,
+        "max_one_core_percent": 24.207327823361737
+      },
+      "Weixin.exe": {
+        "active_samples": 78,
+        "mean_one_core_percent": 5.148006373534895,
+        "max_one_core_percent": 17.043884550966585
+      },
+      "aTrustAgent.exe": {
+        "active_samples": 13,
+        "mean_one_core_percent": 26.99631797545529,
+        "max_one_core_percent": 116.17320080926775
+      },
+      "WINWORD.EXE": {
+        "active_samples": 73,
+        "mean_one_core_percent": 4.410567046974228,
+        "max_one_core_percent": 9.39140216912485
+      },
+      "chrome.exe": {
+        "active_samples": 57,
+        "mean_one_core_percent": 4.854331177581402,
+        "max_one_core_percent": 23.979019110783938
+      },
+      "SearchHost.exe": {
+        "active_samples": 71,
+        "mean_one_core_percent": 3.6470369693187106,
+        "max_one_core_percent": 8.799040130507708
+      },
+      "QQPCTray.exe": {
+        "active_samples": 70,
+        "mean_one_core_percent": 3.282635558528728,
+        "max_one_core_percent": 7.098275568436685
+      },
+      "ChatGPT.exe": {
+        "active_samples": 61,
+        "mean_one_core_percent": 3.386341101207287,
+        "max_one_core_percent": 6.298671453980246
+      },
+      "svchost.exe": {
+        "active_samples": 71,
+        "mean_one_core_percent": 2.32858289609419,
+        "max_one_core_percent": 18.182769290412008
+      }
+    }
+  },
+  "diagnostic": {
+    "samples": 149,
+    "system_cpu_mean": 8.594630872483222,
+    "system_cpu_max": 14.5,
+    "other_processes": {
+      "explorer.exe": {
+        "active_samples": 218,
+        "mean_one_core_percent": 9.39335651132217,
+        "max_one_core_percent": 39.62443041437719
+      },
+      "System": {
+        "active_samples": 141,
+        "mean_one_core_percent": 6.31359045318487,
+        "max_one_core_percent": 93.1801000568764
+      },
+      "Notepad.exe": {
+        "active_samples": 134,
+        "mean_one_core_percent": 5.830797755079745,
+        "max_one_core_percent": 11.597836090458456
+      },
+      "Weixin.exe": {
+        "active_samples": 122,
+        "mean_one_core_percent": 4.636448475609598,
+        "max_one_core_percent": 17.383522978812763
+      },
+      "WINWORD.EXE": {
+        "active_samples": 119,
+        "mean_one_core_percent": 4.333375941212888,
+        "max_one_core_percent": 21.883000774788925
+      },
+      "chrome.exe": {
+        "active_samples": 111,
+        "mean_one_core_percent": 3.9029132741747627,
+        "max_one_core_percent": 26.97256635461687
+      },
+      "aTrustAgent.exe": {
+        "active_samples": 21,
+        "mean_one_core_percent": 20.566561225255228,
+        "max_one_core_percent": 78.54096440254654
+      },
+      "ChatGPT.exe": {
+        "active_samples": 107,
+        "mean_one_core_percent": 4.02736070458424,
+        "max_one_core_percent": 88.50766683127026
+      },
+      "SearchHost.exe": {
+        "active_samples": 107,
+        "mean_one_core_percent": 3.691135287935215,
+        "max_one_core_percent": 8.08061944237968
+      },
+      "QQPCTray.exe": {
+        "active_samples": 92,
+        "mean_one_core_percent": 2.906707022620997,
+        "max_one_core_percent": 7.276781101142894
+      },
+      "svchost.exe": {
+        "active_samples": 88,
+        "mean_one_core_percent": 1.934553927052564,
+        "max_one_core_percent": 4.595481457873048
+      },
+      "QQPCRTP.exe": {
+        "active_samples": 62,
+        "mean_one_core_percent": 2.733071699085134,
+        "max_one_core_percent": 8.044237290840474
+      }
+    }
+  }
+}
