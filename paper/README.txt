@@ -9,3 +9,5 @@ Native C++ experiment code and all 100 tasks are available at https://github.com
 To regenerate: install numpy, matplotlib, reportlab, pymupdf, pillow, and pypdf; run analyze_native.py, draw_architecture.py --font-dir <Times-New-Roman-font-directory>, and make_native_figures.py, then compile main.tex. finish_build.ps1 combines these steps on Windows. Set MININGPOCKET_ROOT to an external native project root to use its completed study records instead of the included records. The scripts do not rerun planning during paper generation.
 
 Author order: Bai Li, Fan Bu, Guizhen Yu, Zhijiang Shao. Funding and the final submission declarations are to be supplied by the authors.
+
+Author biographies follow the reference list. Their grayscale portraits retain the original embedded pixel dimensions; all four exceed or meet 300 dpi at the displayed size.
